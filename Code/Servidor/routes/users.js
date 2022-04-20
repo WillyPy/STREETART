@@ -8,6 +8,13 @@ router.get("/", async function (req, res, next) {
   res.status(result.status).send(result.result);
 });
 
+router.get("/:id", async function (req, res, next) {
+  let id = req.params.id;
+  console.log("Sending user by id:" + id);
+  let result = await uModel.getUserById(id);
+  res.status(result.status).send(result.result);
+});
+
 router.post("/sign", async function (req, res, next) {
   let newUser = req.body;
   let result = await uModel.saveUser(newUser);
