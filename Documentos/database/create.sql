@@ -20,7 +20,7 @@ create table users(
 create table arts(
  art_id serial,
  art_year int not null,
- art_address varchar(50) not null,
+ art_address varchar(100) not null,
  art_state varchar(15) not null,
  art_coords point not null,
  primary key (art_id)
@@ -35,7 +35,7 @@ create table images(
 
 create table projects(
  project_id serial,
- project_name varchar(50) not null,
+ project_name varchar(150) not null,
 	primary key (project_id)
 );
 

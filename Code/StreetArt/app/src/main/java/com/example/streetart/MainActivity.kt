@@ -9,6 +9,13 @@ import android.view.Menu
 import android.view.MenuItem
 import com.mapbox.maps.MapView
 import com.mapbox.maps.Style
+import android.util.Log
+import com.example.streetart.api.RetrofitHelper
+import com.example.streetart.api.streetartApi
+
+import kotlinx.coroutines.GlobalScope
+import kotlinx.coroutines.launch
+import retrofit2.create
 
 class MainActivity : AppCompatActivity() {
     private var mapView: MapView? = null
@@ -23,6 +30,14 @@ class MainActivity : AppCompatActivity() {
         findViewById<FloatingActionButton>(R.id.fab).setOnClickListener { view ->
             Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                     .setAction("Action", null).show()
+        }
+        val quotesApi = RetrofitHelper.getInstance().create(streetartApi::class.java)
+        // launching a new coroutine
+        GlobalScope.launch {
+            val result = quotesApi.getUsers()
+            if (result != null)
+            // Checking the results
+                Log.d("users: ", result.body().toString())
         }
     }
 
