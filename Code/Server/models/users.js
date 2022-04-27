@@ -1,6 +1,6 @@
 var pool = require("./connection");
-/*var bcrypt = require("bcrypt");
-var salt = 10;*/
+var bcrypt = require("bcrypt");
+var salt = 10;
 
 module.exports.getAllUsers = async function () {
   try {
@@ -27,7 +27,7 @@ module.exports.getUserById = async function (id) {
     return { status: 500, result: error };
   }
 };
-/*module.exports.loginUser = async function (user) {
+module.exports.loginUser = async function (user) {
   try {
     let sql =
       "Select * from users inner join artists on user_id=user_fk_id  where user_username = $1";
@@ -70,4 +70,4 @@ insert into artists(user_fk_id, artist_name ) select user_id,$8 from upd;`;
     console.log(error);
     return { status: 500, result: error };
   }
-};*/
+};
