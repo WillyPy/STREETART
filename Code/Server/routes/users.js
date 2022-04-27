@@ -15,7 +15,7 @@ router.get("/:id", async function (req, res, next) {
   res.status(result.status).send(result.result);
 });
 
-router.post("/login", async function (req, res, next) {
+/*router.post("/login", async function (req, res, next) {
   let user = req.body;
   let result = await uModel.loginUser(user);
   res.status(result.status).send(result.result);
@@ -25,6 +25,6 @@ router.post("/sign", async function (req, res, next) {
   let newUser = req.body;
   let result = await uModel.newUser(newUser);
   res.status(result.status).send(result.result);
-});
+});*/
 
 module.exports = router;
