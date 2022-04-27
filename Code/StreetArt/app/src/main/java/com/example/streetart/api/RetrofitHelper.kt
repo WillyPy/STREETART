@@ -4,7 +4,7 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
 object RetrofitHelper {
-    val baseUrl = "http://localhost:3000/api/"
+    val baseUrl = "https://streetart2.herokuapp.com/api/"
 
     fun getInstance(): Retrofit {
         return Retrofit.Builder().baseUrl(baseUrl)

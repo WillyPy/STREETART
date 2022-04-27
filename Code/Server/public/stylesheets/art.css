@@ -1,0 +1,15 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+#arts {
+  height: 30vh;
+  margin-right: 1%;
+  padding: 2%;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.artImgs {
+  width: 90vw;
+}

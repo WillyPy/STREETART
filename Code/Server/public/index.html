@@ -1,7 +1,7 @@
 <html>
   <head>
     <title>Express</title>
-    <link rel="stylesheet" href="/stylesheets/feed.css" />
+    <link rel="stylesheet" href="/stylesheets/style.css" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Audiowide"
@@ -22,9 +22,14 @@
   </head>
 
   <body>
-    <h1>Express</h1>
-    <p>Welcome to Express</p>
-
+    <header>
+      <label for="city">Projects:</label>
+      <select id="Projects"></select>
+      <label for="city">Artists:</label>
+      <select id="Artists"></select>
+      <input type="button" value="Filter" onclick="Filter()" />
+      <input type="button" value="Login" onclick="loginPage()" />
+    </header>
     <main>
       <section id="mapid"></section>
       <section id="conteiner"></section>

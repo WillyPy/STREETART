@@ -13,6 +13,12 @@ router.get("/:id", async function (req, res, next) {
   let result = await aModel.getArtById(id);
   res.status(result.status).send(result.result);
 });
+router.get("/:id/images", async function (req, res, next) {
+  let id = req.params.id;
+  console.log("Sending ar images by id:" + id);
+  let result = await aModel.getArtImages(id);
+  res.status(result.status).send(result.result);
+});
 /*
 router.post("/sign", async function (req, res, next) {
   let newUser = req.body;
