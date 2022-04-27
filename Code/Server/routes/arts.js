@@ -19,11 +19,3 @@ router.get("/:id/images", async function (req, res, next) {
   let result = await aModel.getArtImages(id);
   res.status(result.status).send(result.result);
 });
-/*
-router.post("/sign", async function (req, res, next) {
-  let newUser = req.body;
-  let result = await uModel.saveUser(newUser);
-  res.status(result.status).send(result.result);
-});*/
-
-module.exports = router;
