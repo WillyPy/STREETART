@@ -1,5 +1,5 @@
 var pool = require("./connection");
-var bcrypt = require("bcrypt");
+var bcrypt = require("../node_modules/bcrypt");
 var salt = 10;
 
 module.exports.getAllUsers = async function () {
