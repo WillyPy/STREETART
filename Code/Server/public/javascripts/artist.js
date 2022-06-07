@@ -22,7 +22,7 @@ function createArtsHtml(data) {
     html += `<section class="art" onclick="toArt(${dat.art_id})">
             <p>Ano:${dat.art_year}</p>
             <p>Address:${dat.art_address}</p>
-            <p>Address:${dat.art_state}</p>
+            <p>state:${dat.art_state}</p>
             </section>`;
   }
   document.getElementById("arts").innerHTML = html;

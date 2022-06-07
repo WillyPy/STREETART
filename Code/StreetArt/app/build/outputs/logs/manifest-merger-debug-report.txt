@@ -1,0 +1,489 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\filom\Desktop\Uni-3Ano\2-semestre\Project_Charter\streetart\Code\StreetArt\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\filom\Desktop\Uni-3Ano\2-semestre\Project_Charter\streetart\Code\StreetArt\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\filom\Desktop\Uni-3Ano\2-semestre\Project_Charter\streetart\Code\StreetArt\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\filom\Desktop\Uni-3Ano\2-semestre\Project_Charter\streetart\Code\StreetArt\app\src\main\AndroidManifest.xml:2:1-28:12
+MERGED from [androidx.databinding:viewbinding:7.1.3] C:\Users\filom\.gradle\caches\transforms-3\945dedb21ad80e4f73d715e94c4e9c32\transformed\viewbinding-7.1.3\AndroidManifest.xml:17:1-24:12
+MERGED from [com.mapbox.maps:android:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\3273180f0756ae0519e7fb751ff78cfa\transformed\android-10.4.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.common:okhttp:21.2.1] C:\Users\filom\.gradle\caches\transforms-3\3e1e76ef3ff62698406ddb0235c03225\transformed\okhttp-21.2.1\AndroidManifest.xml:2:1-11:12
+MERGED from [com.mapbox.plugin:maps-annotation:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\cb04d051e171aeb8510438b8a28b469a\transformed\maps-annotation-10.4.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.extension:maps-localization:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\3adad2b0dfaacab4d20b21d134cb7cda\transformed\maps-localization-10.4.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.extension:maps-style:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\a8a9d3514978cc1e149f4ed5442dd9c0\transformed\maps-style-10.4.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.plugin:maps-logo:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\1118edb2abffb9019433b64da30a21ca\transformed\maps-logo-10.4.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.plugin:maps-compass:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\a5e1f47abfa40b44a6f547ea991244b9\transformed\maps-compass-10.4.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.plugin:maps-gestures:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\8b226a6f2c3e566ebf86bb140c7b7d6b\transformed\maps-gestures-10.4.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.plugin:maps-attribution:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\c96b7bf5afea2033cb367f64d0d1c8d1\transformed\maps-attribution-10.4.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.plugin:maps-viewport:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\1984e8438d7e5debc327c29011dedac3\transformed\maps-viewport-10.4.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.plugin:maps-locationcomponent:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\84e41d35e783054788cadd926b8dd2de\transformed\maps-locationcomponent-10.4.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.plugin:maps-animation:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\369618bc42feb457654c0d9bc145b5a2\transformed\maps-animation-10.4.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.plugin:maps-scalebar:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\fb5ae007bfaa93497d4f6ce3270bf91d\transformed\maps-scalebar-10.4.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.plugin:maps-overlay:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\1874e1c023467afba6e4f1747226fe2f\transformed\maps-overlay-10.4.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.plugin:maps-lifecycle:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\dcad7279c2b38cc3193593340a2e521c\transformed\maps-lifecycle-10.4.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.module:maps-telemetry:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\5d01069100cb1abcbfe185e736c45109\transformed\maps-telemetry-10.4.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.maps:base:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\b986758e5e15b8669cedfa41d7e0ccb0\transformed\base-10.4.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.maps:android-core:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\84cacbe0031808269eced4376ef94286\transformed\android-core-10.4.2\AndroidManifest.xml:2:1-33:12
+MERGED from [com.mapbox.common:common:21.2.1] C:\Users\filom\.gradle\caches\transforms-3\3f045ac70f87367e00a19596fc6dba1e\transformed\common-21.2.1\AndroidManifest.xml:2:1-35:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.4.2] C:\Users\filom\.gradle\caches\transforms-3\d753fd949586320a7e7149aec892095e\transformed\navigation-fragment-ktx-2.4.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-fragment:2.4.2] C:\Users\filom\.gradle\caches\transforms-3\d952012faf72c5edd0ea9a74a69969df\transformed\navigation-fragment-2.4.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.4.1] C:\Users\filom\.gradle\caches\transforms-3\ed6f43e8c9f782773362c54eb36c003a\transformed\fragment-ktx-1.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.4.2] C:\Users\filom\.gradle\caches\transforms-3\3679c18a5be446bc23be355d36cb65e1\transformed\navigation-ui-ktx-2.4.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.4.2] C:\Users\filom\.gradle\caches\transforms-3\3994f7282f55dc32af076a1ef509f532\transformed\navigation-runtime-ktx-2.4.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui:2.4.2] C:\Users\filom\.gradle\caches\transforms-3\982d649a54bc7a2732d3b4f526e67c3c\transformed\navigation-ui-2.4.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime:2.4.2] C:\Users\filom\.gradle\caches\transforms-3\85f318cb9561a7d22ecc6c977dda4d3c\transformed\navigation-runtime-2.4.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.2.3] C:\Users\filom\.gradle\caches\transforms-3\943b2f33f8cc1b8eb9968847c5f94f4c\transformed\activity-ktx-1.2.3\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.4.2] C:\Users\filom\.gradle\caches\transforms-3\999b62cf49928f07f8eb6b7329dfe394\transformed\navigation-common-ktx-2.4.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.4.2] C:\Users\filom\.gradle\caches\transforms-3\6966c1520c07f3b4b16055f9480aa3b7\transformed\navigation-common-2.4.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] C:\Users\filom\.gradle\caches\transforms-3\21ab4330f3277f7a4a232daaadf4af74\transformed\lifecycle-viewmodel-ktx-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] C:\Users\filom\.gradle\caches\transforms-3\7606db1de296ed573e77c9fbf3e017c5\transformed\lifecycle-runtime-ktx-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\filom\.gradle\caches\transforms-3\173be93e1b15690e76496ed682b7eb88\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.window:window:1.0.0] C:\Users\filom\.gradle\caches\transforms-3\41004c6afba06d0783c2e16168671df4\transformed\window-1.0.0\AndroidManifest.xml:17:1-33:12
+MERGED from [com.google.android.material:material:1.5.0] C:\Users\filom\.gradle\caches\transforms-3\1af98939a167f3aa8048d8f13e2b5b63\transformed\material-1.5.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\filom\.gradle\caches\transforms-3\e72a85dbb5c713d9ad71e95c488bc40d\transformed\constraintlayout-2.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.4.1] C:\Users\filom\.gradle\caches\transforms-3\cdd8388d8eb0bb4101b550377669da59\transformed\appcompat-1.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\filom\.gradle\caches\transforms-3\45f313a332cf6fa0872b7b5bfc4dc975\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.4.1] C:\Users\filom\.gradle\caches\transforms-3\e357e0379f6067b66788bb901a9fb9b0\transformed\fragment-1.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.7.0] C:\Users\filom\.gradle\caches\transforms-3\e19861ce7b8563417dc1511f73c483f4\transformed\core-ktx-1.7.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\filom\.gradle\caches\transforms-3\5052b2b50a529e736f68e5d7e5678a06\transformed\activity-1.2.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] C:\Users\filom\.gradle\caches\transforms-3\86710c74741fd664399b1cef52f5b95c\transformed\appcompat-resources-1.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\filom\.gradle\caches\transforms-3\b597ecccda3a05f2f2dcd194aa58c447\transformed\emoji2-views-helper-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\filom\.gradle\caches\transforms-3\69d291d347a635c15fd15a8466543966\transformed\emoji2-1.0.0\AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\filom\.gradle\caches\transforms-3\4be58bf1a36073396820c4a42cd2c073\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\filom\.gradle\caches\transforms-3\abaa8e6b9e94cb36a89a64549c9c4ebc\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\filom\.gradle\caches\transforms-3\2c347f4a9e3799d01f149dfbe363db25\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\filom\.gradle\caches\transforms-3\ebcb8d26589d3a4d8c8f67899a1355c8\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\filom\.gradle\caches\transforms-3\7a293be389a20c289ec49e30db625f7c\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:8.1.0] C:\Users\filom\.gradle\caches\transforms-3\0de2417dcdc5439e9a1493f649afdd9e\transformed\mapbox-android-telemetry-8.1.0\AndroidManifest.xml:2:1-36:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\filom\.gradle\caches\transforms-3\c862d58cab592dd6fd3412bd9f323fe1\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\filom\.gradle\caches\transforms-3\8c6bfc3dadc5b1e728248d2bb0afb554\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\filom\.gradle\caches\transforms-3\e528a13da64a223353aaedc1f477a6f3\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\filom\.gradle\caches\transforms-3\737d763ede25da9ebb2c5c4214798026\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\filom\.gradle\caches\transforms-3\a93d0d5c29396bdfd7fa00ab496d7803\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-gestures:0.7.0] C:\Users\filom\.gradle\caches\transforms-3\339e1035d1cdbec8ab5472742a8c470c\transformed\mapbox-android-gestures-0.7.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.transition:transition:1.4.1] C:\Users\filom\.gradle\caches\transforms-3\91d09239f89363ed49ef91bfdd108aab\transformed\transition-1.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.7.0] C:\Users\filom\.gradle\caches\transforms-3\ec8778f597115131b77fc5968136215d\transformed\core-1.7.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\filom\.gradle\caches\transforms-3\96e8772f4b55ca00c8d4d39b1f1fd585\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\filom\.gradle\caches\transforms-3\3bb1c7cf32c87add28a47eac2c565bdf\transformed\lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] C:\Users\filom\.gradle\caches\transforms-3\11f9176aaed2acbe4250f45e9a9ca469\transformed\savedstate-ktx-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\filom\.gradle\caches\transforms-3\98e4c3b73170dc34a9b5706df6e86460\transformed\savedstate-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\filom\.gradle\caches\transforms-3\f72939e981851555c9c1437824a3bf3c\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\filom\.gradle\caches\transforms-3\7e1d7580135d94ce1e7d324c560c75d4\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.mapbox.common:logger:0.5.0] C:\Users\filom\.gradle\caches\transforms-3\f6595754db4a1dafe79582a0d8590707\transformed\logger-0.5.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.common:loader:0.5.0] C:\Users\filom\.gradle\caches\transforms-3\b3c2d4160c6e43c25b77ce65b6921272\transformed\loader-0.5.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.base:common:0.5.0] C:\Users\filom\.gradle\caches\transforms-3\4118b2d9c61228fc6aac4f57aa8b67e8\transformed\common-0.5.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\filom\.gradle\caches\transforms-3\4a186fcf6c8d28bef7d3c6a9166200a8\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\filom\.gradle\caches\transforms-3\5518efa1c1ca29993905068db3381641\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.startup:startup-runtime:1.1.0] C:\Users\filom\.gradle\caches\transforms-3\811484aa525f93b67ae5fad2914191d2\transformed\startup-runtime-1.1.0\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\filom\.gradle\caches\transforms-3\8111a167842b347e35837d5ab85cdf8c\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\filom\.gradle\caches\transforms-3\3a4d0e6a46b0f4b8531b4d0ba544dd36\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] C:\Users\filom\.gradle\caches\transforms-3\f16e3e0545e1d4df8820157769db4e1c\transformed\lifecycle-livedata-core-ktx-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\filom\.gradle\caches\transforms-3\81ac27726b4413706970683ae92f3b15\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\filom\.gradle\caches\transforms-3\5867631fcf1c66b2c6f7f6a2bdaf663b\transformed\lifecycle-runtime-2.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\filom\.gradle\caches\transforms-3\f2a5126088002a67cf740b9930425ccf\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\filom\.gradle\caches\transforms-3\2534b866afdb95ae9040fcf51e641a0e\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\filom\.gradle\caches\transforms-3\56c5bbd028d3e475be80b9f73e0dbe31\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\filom\.gradle\caches\transforms-3\9d0c77dd1770378002ff54115441683e\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\filom\.gradle\caches\transforms-3\b3b5854c62d88c11253ad4ee9675c88b\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\filom\.gradle\caches\transforms-3\c2136a09f4ba6174dc1f03fabe769ae4\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:5.0.0] C:\Users\filom\.gradle\caches\transforms-3\2047113d4d5962e4ca18ed06956b817f\transformed\mapbox-android-core-5.0.0\AndroidManifest.xml:2:1-13:12
+INJECTED from C:\Users\filom\Desktop\Uni-3Ano\2-semestre\Project_Charter\streetart\Code\StreetArt\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\filom\Desktop\Uni-3Ano\2-semestre\Project_Charter\streetart\Code\StreetArt\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\filom\Desktop\Uni-3Ano\2-semestre\Project_Charter\streetart\Code\StreetArt\app\src\main\AndroidManifest.xml:2:1-28:12
+	package
+		ADDED from C:\Users\filom\Desktop\Uni-3Ano\2-semestre\Project_Charter\streetart\Code\StreetArt\app\src\main\AndroidManifest.xml:3:5-36
+		INJECTED from C:\Users\filom\Desktop\Uni-3Ano\2-semestre\Project_Charter\streetart\Code\StreetArt\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\filom\Desktop\Uni-3Ano\2-semestre\Project_Charter\streetart\Code\StreetArt\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\filom\Desktop\Uni-3Ano\2-semestre\Project_Charter\streetart\Code\StreetArt\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\filom\Desktop\Uni-3Ano\2-semestre\Project_Charter\streetart\Code\StreetArt\app\src\main\AndroidManifest.xml:2:1-28:12
+		INJECTED from C:\Users\filom\Desktop\Uni-3Ano\2-semestre\Project_Charter\streetart\Code\StreetArt\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\filom\Desktop\Uni-3Ano\2-semestre\Project_Charter\streetart\Code\StreetArt\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\filom\Desktop\Uni-3Ano\2-semestre\Project_Charter\streetart\Code\StreetArt\app\src\main\AndroidManifest.xml:2:1-28:12
+		INJECTED from C:\Users\filom\Desktop\Uni-3Ano\2-semestre\Project_Charter\streetart\Code\StreetArt\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\filom\Desktop\Uni-3Ano\2-semestre\Project_Charter\streetart\Code\StreetArt\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\filom\Desktop\Uni-3Ano\2-semestre\Project_Charter\streetart\Code\StreetArt\app\src\main\AndroidManifest.xml:5:5-78
+	android:name
+		ADDED from C:\Users\filom\Desktop\Uni-3Ano\2-semestre\Project_Charter\streetart\Code\StreetArt\app\src\main\AndroidManifest.xml:5:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\filom\Desktop\Uni-3Ano\2-semestre\Project_Charter\streetart\Code\StreetArt\app\src\main\AndroidManifest.xml:6:5-80
+	android:name
+		ADDED from C:\Users\filom\Desktop\Uni-3Ano\2-semestre\Project_Charter\streetart\Code\StreetArt\app\src\main\AndroidManifest.xml:6:22-78
+application
+ADDED from C:\Users\filom\Desktop\Uni-3Ano\2-semestre\Project_Charter\streetart\Code\StreetArt\app\src\main\AndroidManifest.xml:8:5-26:19
+MERGED from [com.mapbox.maps:android-core:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\84cacbe0031808269eced4376ef94286\transformed\android-core-10.4.2\AndroidManifest.xml:21:5-31:19
+MERGED from [com.mapbox.maps:android-core:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\84cacbe0031808269eced4376ef94286\transformed\android-core-10.4.2\AndroidManifest.xml:21:5-31:19
+MERGED from [com.mapbox.common:common:21.2.1] C:\Users\filom\.gradle\caches\transforms-3\3f045ac70f87367e00a19596fc6dba1e\transformed\common-21.2.1\AndroidManifest.xml:12:5-33:19
+MERGED from [com.mapbox.common:common:21.2.1] C:\Users\filom\.gradle\caches\transforms-3\3f045ac70f87367e00a19596fc6dba1e\transformed\common-21.2.1\AndroidManifest.xml:12:5-33:19
+MERGED from [androidx.window:window:1.0.0] C:\Users\filom\.gradle\caches\transforms-3\41004c6afba06d0783c2e16168671df4\transformed\window-1.0.0\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0] C:\Users\filom\.gradle\caches\transforms-3\41004c6afba06d0783c2e16168671df4\transformed\window-1.0.0\AndroidManifest.xml:24:5-31:19
+MERGED from [com.google.android.material:material:1.5.0] C:\Users\filom\.gradle\caches\transforms-3\1af98939a167f3aa8048d8f13e2b5b63\transformed\material-1.5.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.5.0] C:\Users\filom\.gradle\caches\transforms-3\1af98939a167f3aa8048d8f13e2b5b63\transformed\material-1.5.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\filom\.gradle\caches\transforms-3\e72a85dbb5c713d9ad71e95c488bc40d\transformed\constraintlayout-2.1.3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\filom\.gradle\caches\transforms-3\e72a85dbb5c713d9ad71e95c488bc40d\transformed\constraintlayout-2.1.3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\filom\.gradle\caches\transforms-3\69d291d347a635c15fd15a8466543966\transformed\emoji2-1.0.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\filom\.gradle\caches\transforms-3\69d291d347a635c15fd15a8466543966\transformed\emoji2-1.0.0\AndroidManifest.xml:25:5-35:19
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:8.1.0] C:\Users\filom\.gradle\caches\transforms-3\0de2417dcdc5439e9a1493f649afdd9e\transformed\mapbox-android-telemetry-8.1.0\AndroidManifest.xml:20:5-34:19
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:8.1.0] C:\Users\filom\.gradle\caches\transforms-3\0de2417dcdc5439e9a1493f649afdd9e\transformed\mapbox-android-telemetry-8.1.0\AndroidManifest.xml:20:5-34:19
+MERGED from [androidx.core:core:1.7.0] C:\Users\filom\.gradle\caches\transforms-3\ec8778f597115131b77fc5968136215d\transformed\core-1.7.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.7.0] C:\Users\filom\.gradle\caches\transforms-3\ec8778f597115131b77fc5968136215d\transformed\core-1.7.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\filom\.gradle\caches\transforms-3\4a186fcf6c8d28bef7d3c6a9166200a8\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\filom\.gradle\caches\transforms-3\4a186fcf6c8d28bef7d3c6a9166200a8\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\filom\.gradle\caches\transforms-3\5518efa1c1ca29993905068db3381641\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\filom\.gradle\caches\transforms-3\5518efa1c1ca29993905068db3381641\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.startup:startup-runtime:1.1.0] C:\Users\filom\.gradle\caches\transforms-3\811484aa525f93b67ae5fad2914191d2\transformed\startup-runtime-1.1.0\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.0] C:\Users\filom\.gradle\caches\transforms-3\811484aa525f93b67ae5fad2914191d2\transformed\startup-runtime-1.1.0\AndroidManifest.xml:25:5-31:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.7.0] C:\Users\filom\.gradle\caches\transforms-3\ec8778f597115131b77fc5968136215d\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from C:\Users\filom\Desktop\Uni-3Ano\2-semestre\Project_Charter\streetart\Code\StreetArt\app\src\main\AndroidManifest.xml:13:9-35
+	android:label
+		ADDED from C:\Users\filom\Desktop\Uni-3Ano\2-semestre\Project_Charter\streetart\Code\StreetArt\app\src\main\AndroidManifest.xml:11:9-41
+	android:roundIcon
+		ADDED from C:\Users\filom\Desktop\Uni-3Ano\2-semestre\Project_Charter\streetart\Code\StreetArt\app\src\main\AndroidManifest.xml:12:9-54
+	android:icon
+		ADDED from C:\Users\filom\Desktop\Uni-3Ano\2-semestre\Project_Charter\streetart\Code\StreetArt\app\src\main\AndroidManifest.xml:10:9-43
+	android:allowBackup
+		ADDED from C:\Users\filom\Desktop\Uni-3Ano\2-semestre\Project_Charter\streetart\Code\StreetArt\app\src\main\AndroidManifest.xml:9:9-35
+	android:theme
+		ADDED from C:\Users\filom\Desktop\Uni-3Ano\2-semestre\Project_Charter\streetart\Code\StreetArt\app\src\main\AndroidManifest.xml:14:9-47
+activity#com.example.streetart.MainActivity
+ADDED from C:\Users\filom\Desktop\Uni-3Ano\2-semestre\Project_Charter\streetart\Code\StreetArt\app\src\main\AndroidManifest.xml:15:9-25:20
+	android:label
+		ADDED from C:\Users\filom\Desktop\Uni-3Ano\2-semestre\Project_Charter\streetart\Code\StreetArt\app\src\main\AndroidManifest.xml:18:13-45
+	android:exported
+		ADDED from C:\Users\filom\Desktop\Uni-3Ano\2-semestre\Project_Charter\streetart\Code\StreetArt\app\src\main\AndroidManifest.xml:17:13-36
+	android:theme
+		ADDED from C:\Users\filom\Desktop\Uni-3Ano\2-semestre\Project_Charter\streetart\Code\StreetArt\app\src\main\AndroidManifest.xml:19:13-63
+	android:name
+		ADDED from C:\Users\filom\Desktop\Uni-3Ano\2-semestre\Project_Charter\streetart\Code\StreetArt\app\src\main\AndroidManifest.xml:16:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\filom\Desktop\Uni-3Ano\2-semestre\Project_Charter\streetart\Code\StreetArt\app\src\main\AndroidManifest.xml:20:13-24:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\filom\Desktop\Uni-3Ano\2-semestre\Project_Charter\streetart\Code\StreetArt\app\src\main\AndroidManifest.xml:21:17-69
+	android:name
+		ADDED from C:\Users\filom\Desktop\Uni-3Ano\2-semestre\Project_Charter\streetart\Code\StreetArt\app\src\main\AndroidManifest.xml:21:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\filom\Desktop\Uni-3Ano\2-semestre\Project_Charter\streetart\Code\StreetArt\app\src\main\AndroidManifest.xml:23:17-77
+	android:name
+		ADDED from C:\Users\filom\Desktop\Uni-3Ano\2-semestre\Project_Charter\streetart\Code\StreetArt\app\src\main\AndroidManifest.xml:23:27-74
+uses-sdk
+INJECTED from C:\Users\filom\Desktop\Uni-3Ano\2-semestre\Project_Charter\streetart\Code\StreetArt\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\filom\Desktop\Uni-3Ano\2-semestre\Project_Charter\streetart\Code\StreetArt\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\filom\Desktop\Uni-3Ano\2-semestre\Project_Charter\streetart\Code\StreetArt\app\src\main\AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:7.1.3] C:\Users\filom\.gradle\caches\transforms-3\945dedb21ad80e4f73d715e94c4e9c32\transformed\viewbinding-7.1.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.databinding:viewbinding:7.1.3] C:\Users\filom\.gradle\caches\transforms-3\945dedb21ad80e4f73d715e94c4e9c32\transformed\viewbinding-7.1.3\AndroidManifest.xml:20:5-22:41
+MERGED from [com.mapbox.maps:android:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\3273180f0756ae0519e7fb751ff78cfa\transformed\android-10.4.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.maps:android:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\3273180f0756ae0519e7fb751ff78cfa\transformed\android-10.4.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.common:okhttp:21.2.1] C:\Users\filom\.gradle\caches\transforms-3\3e1e76ef3ff62698406ddb0235c03225\transformed\okhttp-21.2.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.common:okhttp:21.2.1] C:\Users\filom\.gradle\caches\transforms-3\3e1e76ef3ff62698406ddb0235c03225\transformed\okhttp-21.2.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-annotation:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\cb04d051e171aeb8510438b8a28b469a\transformed\maps-annotation-10.4.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-annotation:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\cb04d051e171aeb8510438b8a28b469a\transformed\maps-annotation-10.4.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.extension:maps-localization:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\3adad2b0dfaacab4d20b21d134cb7cda\transformed\maps-localization-10.4.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.extension:maps-localization:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\3adad2b0dfaacab4d20b21d134cb7cda\transformed\maps-localization-10.4.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.extension:maps-style:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\a8a9d3514978cc1e149f4ed5442dd9c0\transformed\maps-style-10.4.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.extension:maps-style:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\a8a9d3514978cc1e149f4ed5442dd9c0\transformed\maps-style-10.4.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-logo:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\1118edb2abffb9019433b64da30a21ca\transformed\maps-logo-10.4.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-logo:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\1118edb2abffb9019433b64da30a21ca\transformed\maps-logo-10.4.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-compass:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\a5e1f47abfa40b44a6f547ea991244b9\transformed\maps-compass-10.4.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-compass:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\a5e1f47abfa40b44a6f547ea991244b9\transformed\maps-compass-10.4.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-gestures:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\8b226a6f2c3e566ebf86bb140c7b7d6b\transformed\maps-gestures-10.4.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-gestures:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\8b226a6f2c3e566ebf86bb140c7b7d6b\transformed\maps-gestures-10.4.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-attribution:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\c96b7bf5afea2033cb367f64d0d1c8d1\transformed\maps-attribution-10.4.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-attribution:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\c96b7bf5afea2033cb367f64d0d1c8d1\transformed\maps-attribution-10.4.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-viewport:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\1984e8438d7e5debc327c29011dedac3\transformed\maps-viewport-10.4.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-viewport:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\1984e8438d7e5debc327c29011dedac3\transformed\maps-viewport-10.4.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-locationcomponent:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\84e41d35e783054788cadd926b8dd2de\transformed\maps-locationcomponent-10.4.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-locationcomponent:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\84e41d35e783054788cadd926b8dd2de\transformed\maps-locationcomponent-10.4.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-animation:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\369618bc42feb457654c0d9bc145b5a2\transformed\maps-animation-10.4.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-animation:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\369618bc42feb457654c0d9bc145b5a2\transformed\maps-animation-10.4.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-scalebar:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\fb5ae007bfaa93497d4f6ce3270bf91d\transformed\maps-scalebar-10.4.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-scalebar:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\fb5ae007bfaa93497d4f6ce3270bf91d\transformed\maps-scalebar-10.4.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-overlay:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\1874e1c023467afba6e4f1747226fe2f\transformed\maps-overlay-10.4.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-overlay:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\1874e1c023467afba6e4f1747226fe2f\transformed\maps-overlay-10.4.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-lifecycle:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\dcad7279c2b38cc3193593340a2e521c\transformed\maps-lifecycle-10.4.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-lifecycle:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\dcad7279c2b38cc3193593340a2e521c\transformed\maps-lifecycle-10.4.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.module:maps-telemetry:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\5d01069100cb1abcbfe185e736c45109\transformed\maps-telemetry-10.4.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.module:maps-telemetry:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\5d01069100cb1abcbfe185e736c45109\transformed\maps-telemetry-10.4.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.maps:base:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\b986758e5e15b8669cedfa41d7e0ccb0\transformed\base-10.4.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.maps:base:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\b986758e5e15b8669cedfa41d7e0ccb0\transformed\base-10.4.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.maps:android-core:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\84cacbe0031808269eced4376ef94286\transformed\android-core-10.4.2\AndroidManifest.xml:6:5-8:41
+MERGED from [com.mapbox.maps:android-core:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\84cacbe0031808269eced4376ef94286\transformed\android-core-10.4.2\AndroidManifest.xml:6:5-8:41
+MERGED from [com.mapbox.common:common:21.2.1] C:\Users\filom\.gradle\caches\transforms-3\3f045ac70f87367e00a19596fc6dba1e\transformed\common-21.2.1\AndroidManifest.xml:6:5-8:41
+MERGED from [com.mapbox.common:common:21.2.1] C:\Users\filom\.gradle\caches\transforms-3\3f045ac70f87367e00a19596fc6dba1e\transformed\common-21.2.1\AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.4.2] C:\Users\filom\.gradle\caches\transforms-3\d753fd949586320a7e7149aec892095e\transformed\navigation-fragment-ktx-2.4.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.4.2] C:\Users\filom\.gradle\caches\transforms-3\d753fd949586320a7e7149aec892095e\transformed\navigation-fragment-ktx-2.4.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.4.2] C:\Users\filom\.gradle\caches\transforms-3\d952012faf72c5edd0ea9a74a69969df\transformed\navigation-fragment-2.4.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.4.2] C:\Users\filom\.gradle\caches\transforms-3\d952012faf72c5edd0ea9a74a69969df\transformed\navigation-fragment-2.4.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.4.1] C:\Users\filom\.gradle\caches\transforms-3\ed6f43e8c9f782773362c54eb36c003a\transformed\fragment-ktx-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.4.1] C:\Users\filom\.gradle\caches\transforms-3\ed6f43e8c9f782773362c54eb36c003a\transformed\fragment-ktx-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.4.2] C:\Users\filom\.gradle\caches\transforms-3\3679c18a5be446bc23be355d36cb65e1\transformed\navigation-ui-ktx-2.4.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.4.2] C:\Users\filom\.gradle\caches\transforms-3\3679c18a5be446bc23be355d36cb65e1\transformed\navigation-ui-ktx-2.4.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.4.2] C:\Users\filom\.gradle\caches\transforms-3\3994f7282f55dc32af076a1ef509f532\transformed\navigation-runtime-ktx-2.4.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.4.2] C:\Users\filom\.gradle\caches\transforms-3\3994f7282f55dc32af076a1ef509f532\transformed\navigation-runtime-ktx-2.4.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.4.2] C:\Users\filom\.gradle\caches\transforms-3\982d649a54bc7a2732d3b4f526e67c3c\transformed\navigation-ui-2.4.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.4.2] C:\Users\filom\.gradle\caches\transforms-3\982d649a54bc7a2732d3b4f526e67c3c\transformed\navigation-ui-2.4.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.4.2] C:\Users\filom\.gradle\caches\transforms-3\85f318cb9561a7d22ecc6c977dda4d3c\transformed\navigation-runtime-2.4.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.4.2] C:\Users\filom\.gradle\caches\transforms-3\85f318cb9561a7d22ecc6c977dda4d3c\transformed\navigation-runtime-2.4.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.2.3] C:\Users\filom\.gradle\caches\transforms-3\943b2f33f8cc1b8eb9968847c5f94f4c\transformed\activity-ktx-1.2.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.2.3] C:\Users\filom\.gradle\caches\transforms-3\943b2f33f8cc1b8eb9968847c5f94f4c\transformed\activity-ktx-1.2.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.4.2] C:\Users\filom\.gradle\caches\transforms-3\999b62cf49928f07f8eb6b7329dfe394\transformed\navigation-common-ktx-2.4.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.4.2] C:\Users\filom\.gradle\caches\transforms-3\999b62cf49928f07f8eb6b7329dfe394\transformed\navigation-common-ktx-2.4.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.4.2] C:\Users\filom\.gradle\caches\transforms-3\6966c1520c07f3b4b16055f9480aa3b7\transformed\navigation-common-2.4.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.4.2] C:\Users\filom\.gradle\caches\transforms-3\6966c1520c07f3b4b16055f9480aa3b7\transformed\navigation-common-2.4.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] C:\Users\filom\.gradle\caches\transforms-3\21ab4330f3277f7a4a232daaadf4af74\transformed\lifecycle-viewmodel-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] C:\Users\filom\.gradle\caches\transforms-3\21ab4330f3277f7a4a232daaadf4af74\transformed\lifecycle-viewmodel-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] C:\Users\filom\.gradle\caches\transforms-3\7606db1de296ed573e77c9fbf3e017c5\transformed\lifecycle-runtime-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] C:\Users\filom\.gradle\caches\transforms-3\7606db1de296ed573e77c9fbf3e017c5\transformed\lifecycle-runtime-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\filom\.gradle\caches\transforms-3\173be93e1b15690e76496ed682b7eb88\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\filom\.gradle\caches\transforms-3\173be93e1b15690e76496ed682b7eb88\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] C:\Users\filom\.gradle\caches\transforms-3\41004c6afba06d0783c2e16168671df4\transformed\window-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] C:\Users\filom\.gradle\caches\transforms-3\41004c6afba06d0783c2e16168671df4\transformed\window-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.5.0] C:\Users\filom\.gradle\caches\transforms-3\1af98939a167f3aa8048d8f13e2b5b63\transformed\material-1.5.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.5.0] C:\Users\filom\.gradle\caches\transforms-3\1af98939a167f3aa8048d8f13e2b5b63\transformed\material-1.5.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\filom\.gradle\caches\transforms-3\e72a85dbb5c713d9ad71e95c488bc40d\transformed\constraintlayout-2.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\filom\.gradle\caches\transforms-3\e72a85dbb5c713d9ad71e95c488bc40d\transformed\constraintlayout-2.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.4.1] C:\Users\filom\.gradle\caches\transforms-3\cdd8388d8eb0bb4101b550377669da59\transformed\appcompat-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.4.1] C:\Users\filom\.gradle\caches\transforms-3\cdd8388d8eb0bb4101b550377669da59\transformed\appcompat-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\filom\.gradle\caches\transforms-3\45f313a332cf6fa0872b7b5bfc4dc975\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\filom\.gradle\caches\transforms-3\45f313a332cf6fa0872b7b5bfc4dc975\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.4.1] C:\Users\filom\.gradle\caches\transforms-3\e357e0379f6067b66788bb901a9fb9b0\transformed\fragment-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.4.1] C:\Users\filom\.gradle\caches\transforms-3\e357e0379f6067b66788bb901a9fb9b0\transformed\fragment-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.7.0] C:\Users\filom\.gradle\caches\transforms-3\e19861ce7b8563417dc1511f73c483f4\transformed\core-ktx-1.7.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.7.0] C:\Users\filom\.gradle\caches\transforms-3\e19861ce7b8563417dc1511f73c483f4\transformed\core-ktx-1.7.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\filom\.gradle\caches\transforms-3\5052b2b50a529e736f68e5d7e5678a06\transformed\activity-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\filom\.gradle\caches\transforms-3\5052b2b50a529e736f68e5d7e5678a06\transformed\activity-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] C:\Users\filom\.gradle\caches\transforms-3\86710c74741fd664399b1cef52f5b95c\transformed\appcompat-resources-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] C:\Users\filom\.gradle\caches\transforms-3\86710c74741fd664399b1cef52f5b95c\transformed\appcompat-resources-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\filom\.gradle\caches\transforms-3\b597ecccda3a05f2f2dcd194aa58c447\transformed\emoji2-views-helper-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\filom\.gradle\caches\transforms-3\b597ecccda3a05f2f2dcd194aa58c447\transformed\emoji2-views-helper-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\filom\.gradle\caches\transforms-3\69d291d347a635c15fd15a8466543966\transformed\emoji2-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\filom\.gradle\caches\transforms-3\69d291d347a635c15fd15a8466543966\transformed\emoji2-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\filom\.gradle\caches\transforms-3\4be58bf1a36073396820c4a42cd2c073\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\filom\.gradle\caches\transforms-3\4be58bf1a36073396820c4a42cd2c073\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\filom\.gradle\caches\transforms-3\abaa8e6b9e94cb36a89a64549c9c4ebc\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\filom\.gradle\caches\transforms-3\abaa8e6b9e94cb36a89a64549c9c4ebc\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\filom\.gradle\caches\transforms-3\2c347f4a9e3799d01f149dfbe363db25\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\filom\.gradle\caches\transforms-3\2c347f4a9e3799d01f149dfbe363db25\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\filom\.gradle\caches\transforms-3\ebcb8d26589d3a4d8c8f67899a1355c8\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\filom\.gradle\caches\transforms-3\ebcb8d26589d3a4d8c8f67899a1355c8\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\filom\.gradle\caches\transforms-3\7a293be389a20c289ec49e30db625f7c\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\filom\.gradle\caches\transforms-3\7a293be389a20c289ec49e30db625f7c\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:8.1.0] C:\Users\filom\.gradle\caches\transforms-3\0de2417dcdc5439e9a1493f649afdd9e\transformed\mapbox-android-telemetry-8.1.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:8.1.0] C:\Users\filom\.gradle\caches\transforms-3\0de2417dcdc5439e9a1493f649afdd9e\transformed\mapbox-android-telemetry-8.1.0\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\filom\.gradle\caches\transforms-3\c862d58cab592dd6fd3412bd9f323fe1\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\filom\.gradle\caches\transforms-3\c862d58cab592dd6fd3412bd9f323fe1\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\filom\.gradle\caches\transforms-3\8c6bfc3dadc5b1e728248d2bb0afb554\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\filom\.gradle\caches\transforms-3\8c6bfc3dadc5b1e728248d2bb0afb554\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\filom\.gradle\caches\transforms-3\e528a13da64a223353aaedc1f477a6f3\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\filom\.gradle\caches\transforms-3\e528a13da64a223353aaedc1f477a6f3\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\filom\.gradle\caches\transforms-3\737d763ede25da9ebb2c5c4214798026\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\filom\.gradle\caches\transforms-3\737d763ede25da9ebb2c5c4214798026\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\filom\.gradle\caches\transforms-3\a93d0d5c29396bdfd7fa00ab496d7803\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\filom\.gradle\caches\transforms-3\a93d0d5c29396bdfd7fa00ab496d7803\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-gestures:0.7.0] C:\Users\filom\.gradle\caches\transforms-3\339e1035d1cdbec8ab5472742a8c470c\transformed\mapbox-android-gestures-0.7.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-gestures:0.7.0] C:\Users\filom\.gradle\caches\transforms-3\339e1035d1cdbec8ab5472742a8c470c\transformed\mapbox-android-gestures-0.7.0\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.transition:transition:1.4.1] C:\Users\filom\.gradle\caches\transforms-3\91d09239f89363ed49ef91bfdd108aab\transformed\transition-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] C:\Users\filom\.gradle\caches\transforms-3\91d09239f89363ed49ef91bfdd108aab\transformed\transition-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] C:\Users\filom\.gradle\caches\transforms-3\ec8778f597115131b77fc5968136215d\transformed\core-1.7.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] C:\Users\filom\.gradle\caches\transforms-3\ec8778f597115131b77fc5968136215d\transformed\core-1.7.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\filom\.gradle\caches\transforms-3\96e8772f4b55ca00c8d4d39b1f1fd585\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\filom\.gradle\caches\transforms-3\96e8772f4b55ca00c8d4d39b1f1fd585\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\filom\.gradle\caches\transforms-3\3bb1c7cf32c87add28a47eac2c565bdf\transformed\lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\filom\.gradle\caches\transforms-3\3bb1c7cf32c87add28a47eac2c565bdf\transformed\lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] C:\Users\filom\.gradle\caches\transforms-3\11f9176aaed2acbe4250f45e9a9ca469\transformed\savedstate-ktx-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] C:\Users\filom\.gradle\caches\transforms-3\11f9176aaed2acbe4250f45e9a9ca469\transformed\savedstate-ktx-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\filom\.gradle\caches\transforms-3\98e4c3b73170dc34a9b5706df6e86460\transformed\savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\filom\.gradle\caches\transforms-3\98e4c3b73170dc34a9b5706df6e86460\transformed\savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\filom\.gradle\caches\transforms-3\f72939e981851555c9c1437824a3bf3c\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\filom\.gradle\caches\transforms-3\f72939e981851555c9c1437824a3bf3c\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\filom\.gradle\caches\transforms-3\7e1d7580135d94ce1e7d324c560c75d4\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\filom\.gradle\caches\transforms-3\7e1d7580135d94ce1e7d324c560c75d4\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.mapbox.common:logger:0.5.0] C:\Users\filom\.gradle\caches\transforms-3\f6595754db4a1dafe79582a0d8590707\transformed\logger-0.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.common:logger:0.5.0] C:\Users\filom\.gradle\caches\transforms-3\f6595754db4a1dafe79582a0d8590707\transformed\logger-0.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.common:loader:0.5.0] C:\Users\filom\.gradle\caches\transforms-3\b3c2d4160c6e43c25b77ce65b6921272\transformed\loader-0.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.common:loader:0.5.0] C:\Users\filom\.gradle\caches\transforms-3\b3c2d4160c6e43c25b77ce65b6921272\transformed\loader-0.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.base:common:0.5.0] C:\Users\filom\.gradle\caches\transforms-3\4118b2d9c61228fc6aac4f57aa8b67e8\transformed\common-0.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.base:common:0.5.0] C:\Users\filom\.gradle\caches\transforms-3\4118b2d9c61228fc6aac4f57aa8b67e8\transformed\common-0.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\filom\.gradle\caches\transforms-3\4a186fcf6c8d28bef7d3c6a9166200a8\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\filom\.gradle\caches\transforms-3\4a186fcf6c8d28bef7d3c6a9166200a8\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\filom\.gradle\caches\transforms-3\5518efa1c1ca29993905068db3381641\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\filom\.gradle\caches\transforms-3\5518efa1c1ca29993905068db3381641\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.0] C:\Users\filom\.gradle\caches\transforms-3\811484aa525f93b67ae5fad2914191d2\transformed\startup-runtime-1.1.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.0] C:\Users\filom\.gradle\caches\transforms-3\811484aa525f93b67ae5fad2914191d2\transformed\startup-runtime-1.1.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\filom\.gradle\caches\transforms-3\8111a167842b347e35837d5ab85cdf8c\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\filom\.gradle\caches\transforms-3\8111a167842b347e35837d5ab85cdf8c\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\filom\.gradle\caches\transforms-3\3a4d0e6a46b0f4b8531b4d0ba544dd36\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\filom\.gradle\caches\transforms-3\3a4d0e6a46b0f4b8531b4d0ba544dd36\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] C:\Users\filom\.gradle\caches\transforms-3\f16e3e0545e1d4df8820157769db4e1c\transformed\lifecycle-livedata-core-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] C:\Users\filom\.gradle\caches\transforms-3\f16e3e0545e1d4df8820157769db4e1c\transformed\lifecycle-livedata-core-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\filom\.gradle\caches\transforms-3\81ac27726b4413706970683ae92f3b15\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\filom\.gradle\caches\transforms-3\81ac27726b4413706970683ae92f3b15\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\filom\.gradle\caches\transforms-3\5867631fcf1c66b2c6f7f6a2bdaf663b\transformed\lifecycle-runtime-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\filom\.gradle\caches\transforms-3\5867631fcf1c66b2c6f7f6a2bdaf663b\transformed\lifecycle-runtime-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\filom\.gradle\caches\transforms-3\f2a5126088002a67cf740b9930425ccf\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\filom\.gradle\caches\transforms-3\f2a5126088002a67cf740b9930425ccf\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\filom\.gradle\caches\transforms-3\2534b866afdb95ae9040fcf51e641a0e\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\filom\.gradle\caches\transforms-3\2534b866afdb95ae9040fcf51e641a0e\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\filom\.gradle\caches\transforms-3\56c5bbd028d3e475be80b9f73e0dbe31\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\filom\.gradle\caches\transforms-3\56c5bbd028d3e475be80b9f73e0dbe31\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\filom\.gradle\caches\transforms-3\9d0c77dd1770378002ff54115441683e\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\filom\.gradle\caches\transforms-3\9d0c77dd1770378002ff54115441683e\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\filom\.gradle\caches\transforms-3\b3b5854c62d88c11253ad4ee9675c88b\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\filom\.gradle\caches\transforms-3\b3b5854c62d88c11253ad4ee9675c88b\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\filom\.gradle\caches\transforms-3\c2136a09f4ba6174dc1f03fabe769ae4\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\filom\.gradle\caches\transforms-3\c2136a09f4ba6174dc1f03fabe769ae4\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:5.0.0] C:\Users\filom\.gradle\caches\transforms-3\2047113d4d5962e4ca18ed06956b817f\transformed\mapbox-android-core-5.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:5.0.0] C:\Users\filom\.gradle\caches\transforms-3\2047113d4d5962e4ca18ed06956b817f\transformed\mapbox-android-core-5.0.0\AndroidManifest.xml:7:5-9:41
+INJECTED from C:\Users\filom\Desktop\Uni-3Ano\2-semestre\Project_Charter\streetart\Code\StreetArt\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\filom\Desktop\Uni-3Ano\2-semestre\Project_Charter\streetart\Code\StreetArt\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\filom\Desktop\Uni-3Ano\2-semestre\Project_Charter\streetart\Code\StreetArt\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\filom\Desktop\Uni-3Ano\2-semestre\Project_Charter\streetart\Code\StreetArt\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\filom\Desktop\Uni-3Ano\2-semestre\Project_Charter\streetart\Code\StreetArt\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\filom\Desktop\Uni-3Ano\2-semestre\Project_Charter\streetart\Code\StreetArt\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\filom\Desktop\Uni-3Ano\2-semestre\Project_Charter\streetart\Code\StreetArt\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\filom\Desktop\Uni-3Ano\2-semestre\Project_Charter\streetart\Code\StreetArt\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from [com.mapbox.common:okhttp:21.2.1] C:\Users\filom\.gradle\caches\transforms-3\3e1e76ef3ff62698406ddb0235c03225\transformed\okhttp-21.2.1\AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from [com.mapbox.common:okhttp:21.2.1] C:\Users\filom\.gradle\caches\transforms-3\3e1e76ef3ff62698406ddb0235c03225\transformed\okhttp-21.2.1\AndroidManifest.xml:9:22-76
+uses-feature#0x00020000
+ADDED from [com.mapbox.maps:android-core:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\84cacbe0031808269eced4376ef94286\transformed\android-core-10.4.2\AndroidManifest.xml:10:5-12:35
+	android:glEsVersion
+		ADDED from [com.mapbox.maps:android-core:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\84cacbe0031808269eced4376ef94286\transformed\android-core-10.4.2\AndroidManifest.xml:11:9-41
+	android:required
+		ADDED from [com.mapbox.maps:android-core:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\84cacbe0031808269eced4376ef94286\transformed\android-core-10.4.2\AndroidManifest.xml:12:9-32
+uses-feature#android.hardware.wifi
+ADDED from [com.mapbox.maps:android-core:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\84cacbe0031808269eced4376ef94286\transformed\android-core-10.4.2\AndroidManifest.xml:13:5-15:36
+	android:required
+		ADDED from [com.mapbox.maps:android-core:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\84cacbe0031808269eced4376ef94286\transformed\android-core-10.4.2\AndroidManifest.xml:15:9-33
+	android:name
+		ADDED from [com.mapbox.maps:android-core:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\84cacbe0031808269eced4376ef94286\transformed\android-core-10.4.2\AndroidManifest.xml:14:9-45
+uses-permission#android.permission.INTERNET
+ADDED from [com.mapbox.maps:android-core:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\84cacbe0031808269eced4376ef94286\transformed\android-core-10.4.2\AndroidManifest.xml:17:5-67
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:8.1.0] C:\Users\filom\.gradle\caches\transforms-3\0de2417dcdc5439e9a1493f649afdd9e\transformed\mapbox-android-telemetry-8.1.0\AndroidManifest.xml:15:5-67
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:8.1.0] C:\Users\filom\.gradle\caches\transforms-3\0de2417dcdc5439e9a1493f649afdd9e\transformed\mapbox-android-telemetry-8.1.0\AndroidManifest.xml:15:5-67
+	android:name
+		ADDED from [com.mapbox.maps:android-core:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\84cacbe0031808269eced4376ef94286\transformed\android-core-10.4.2\AndroidManifest.xml:17:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.mapbox.maps:android-core:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\84cacbe0031808269eced4376ef94286\transformed\android-core-10.4.2\AndroidManifest.xml:18:5-79
+MERGED from [com.mapbox.common:common:21.2.1] C:\Users\filom\.gradle\caches\transforms-3\3f045ac70f87367e00a19596fc6dba1e\transformed\common-21.2.1\AndroidManifest.xml:10:5-79
+MERGED from [com.mapbox.common:common:21.2.1] C:\Users\filom\.gradle\caches\transforms-3\3f045ac70f87367e00a19596fc6dba1e\transformed\common-21.2.1\AndroidManifest.xml:10:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:8.1.0] C:\Users\filom\.gradle\caches\transforms-3\0de2417dcdc5439e9a1493f649afdd9e\transformed\mapbox-android-telemetry-8.1.0\AndroidManifest.xml:13:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:8.1.0] C:\Users\filom\.gradle\caches\transforms-3\0de2417dcdc5439e9a1493f649afdd9e\transformed\mapbox-android-telemetry-8.1.0\AndroidManifest.xml:13:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:5.0.0] C:\Users\filom\.gradle\caches\transforms-3\2047113d4d5962e4ca18ed06956b817f\transformed\mapbox-android-core-5.0.0\AndroidManifest.xml:11:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:5.0.0] C:\Users\filom\.gradle\caches\transforms-3\2047113d4d5962e4ca18ed06956b817f\transformed\mapbox-android-core-5.0.0\AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from [com.mapbox.maps:android-core:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\84cacbe0031808269eced4376ef94286\transformed\android-core-10.4.2\AndroidManifest.xml:18:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [com.mapbox.maps:android-core:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\84cacbe0031808269eced4376ef94286\transformed\android-core-10.4.2\AndroidManifest.xml:19:5-76
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:8.1.0] C:\Users\filom\.gradle\caches\transforms-3\0de2417dcdc5439e9a1493f649afdd9e\transformed\mapbox-android-telemetry-8.1.0\AndroidManifest.xml:14:5-76
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:8.1.0] C:\Users\filom\.gradle\caches\transforms-3\0de2417dcdc5439e9a1493f649afdd9e\transformed\mapbox-android-telemetry-8.1.0\AndroidManifest.xml:14:5-76
+	android:name
+		ADDED from [com.mapbox.maps:android-core:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\84cacbe0031808269eced4376ef94286\transformed\android-core-10.4.2\AndroidManifest.xml:19:22-73
+provider#androidx.startup.InitializationProvider
+ADDED from [com.mapbox.maps:android-core:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\84cacbe0031808269eced4376ef94286\transformed\android-core-10.4.2\AndroidManifest.xml:22:9-30:20
+MERGED from [com.mapbox.common:common:21.2.1] C:\Users\filom\.gradle\caches\transforms-3\3f045ac70f87367e00a19596fc6dba1e\transformed\common-21.2.1\AndroidManifest.xml:13:9-23:20
+MERGED from [com.mapbox.common:common:21.2.1] C:\Users\filom\.gradle\caches\transforms-3\3f045ac70f87367e00a19596fc6dba1e\transformed\common-21.2.1\AndroidManifest.xml:13:9-23:20
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\filom\.gradle\caches\transforms-3\69d291d347a635c15fd15a8466543966\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\filom\.gradle\caches\transforms-3\69d291d347a635c15fd15a8466543966\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\filom\.gradle\caches\transforms-3\5518efa1c1ca29993905068db3381641\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\filom\.gradle\caches\transforms-3\5518efa1c1ca29993905068db3381641\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.1.0] C:\Users\filom\.gradle\caches\transforms-3\811484aa525f93b67ae5fad2914191d2\transformed\startup-runtime-1.1.0\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.0] C:\Users\filom\.gradle\caches\transforms-3\811484aa525f93b67ae5fad2914191d2\transformed\startup-runtime-1.1.0\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [com.mapbox.maps:android-core:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\84cacbe0031808269eced4376ef94286\transformed\android-core-10.4.2\AndroidManifest.xml:26:13-31
+	android:authorities
+		ADDED from [com.mapbox.maps:android-core:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\84cacbe0031808269eced4376ef94286\transformed\android-core-10.4.2\AndroidManifest.xml:24:13-68
+	android:exported
+		ADDED from [com.mapbox.maps:android-core:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\84cacbe0031808269eced4376ef94286\transformed\android-core-10.4.2\AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [com.mapbox.maps:android-core:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\84cacbe0031808269eced4376ef94286\transformed\android-core-10.4.2\AndroidManifest.xml:23:13-67
+meta-data#com.mapbox.maps.loader.MapboxMapsInitializer
+ADDED from [com.mapbox.maps:android-core:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\84cacbe0031808269eced4376ef94286\transformed\android-core-10.4.2\AndroidManifest.xml:27:13-29:52
+	android:value
+		ADDED from [com.mapbox.maps:android-core:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\84cacbe0031808269eced4376ef94286\transformed\android-core-10.4.2\AndroidManifest.xml:29:17-49
+	android:name
+		ADDED from [com.mapbox.maps:android-core:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\84cacbe0031808269eced4376ef94286\transformed\android-core-10.4.2\AndroidManifest.xml:28:17-76
+meta-data#com.mapbox.common.MapboxSDKCommonInitializer
+ADDED from [com.mapbox.common:common:21.2.1] C:\Users\filom\.gradle\caches\transforms-3\3f045ac70f87367e00a19596fc6dba1e\transformed\common-21.2.1\AndroidManifest.xml:20:13-22:52
+	android:value
+		ADDED from [com.mapbox.common:common:21.2.1] C:\Users\filom\.gradle\caches\transforms-3\3f045ac70f87367e00a19596fc6dba1e\transformed\common-21.2.1\AndroidManifest.xml:22:17-49
+	android:name
+		ADDED from [com.mapbox.common:common:21.2.1] C:\Users\filom\.gradle\caches\transforms-3\3f045ac70f87367e00a19596fc6dba1e\transformed\common-21.2.1\AndroidManifest.xml:21:17-76
+receiver#com.mapbox.common.location.LocationUpdatesReceiver
+ADDED from [com.mapbox.common:common:21.2.1] C:\Users\filom\.gradle\caches\transforms-3\3f045ac70f87367e00a19596fc6dba1e\transformed\common-21.2.1\AndroidManifest.xml:25:9-32:20
+	android:enabled
+		ADDED from [com.mapbox.common:common:21.2.1] C:\Users\filom\.gradle\caches\transforms-3\3f045ac70f87367e00a19596fc6dba1e\transformed\common-21.2.1\AndroidManifest.xml:27:13-36
+	android:exported
+		ADDED from [com.mapbox.common:common:21.2.1] C:\Users\filom\.gradle\caches\transforms-3\3f045ac70f87367e00a19596fc6dba1e\transformed\common-21.2.1\AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [com.mapbox.common:common:21.2.1] C:\Users\filom\.gradle\caches\transforms-3\3f045ac70f87367e00a19596fc6dba1e\transformed\common-21.2.1\AndroidManifest.xml:26:13-78
+intent-filter#action:name:com.mapbox.common.location.LocationUpdatesReceiver.ACTION_PROCESS_LOCATION_UPDATES
+ADDED from [com.mapbox.common:common:21.2.1] C:\Users\filom\.gradle\caches\transforms-3\3f045ac70f87367e00a19596fc6dba1e\transformed\common-21.2.1\AndroidManifest.xml:29:13-31:29
+action#com.mapbox.common.location.LocationUpdatesReceiver.ACTION_PROCESS_LOCATION_UPDATES
+ADDED from [com.mapbox.common:common:21.2.1] C:\Users\filom\.gradle\caches\transforms-3\3f045ac70f87367e00a19596fc6dba1e\transformed\common-21.2.1\AndroidManifest.xml:30:17-125
+	android:name
+		ADDED from [com.mapbox.common:common:21.2.1] C:\Users\filom\.gradle\caches\transforms-3\3f045ac70f87367e00a19596fc6dba1e\transformed\common-21.2.1\AndroidManifest.xml:30:25-122
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0] C:\Users\filom\.gradle\caches\transforms-3\41004c6afba06d0783c2e16168671df4\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] C:\Users\filom\.gradle\caches\transforms-3\41004c6afba06d0783c2e16168671df4\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] C:\Users\filom\.gradle\caches\transforms-3\41004c6afba06d0783c2e16168671df4\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0] C:\Users\filom\.gradle\caches\transforms-3\41004c6afba06d0783c2e16168671df4\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] C:\Users\filom\.gradle\caches\transforms-3\41004c6afba06d0783c2e16168671df4\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] C:\Users\filom\.gradle\caches\transforms-3\41004c6afba06d0783c2e16168671df4\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\filom\.gradle\caches\transforms-3\69d291d347a635c15fd15a8466543966\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\filom\.gradle\caches\transforms-3\69d291d347a635c15fd15a8466543966\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\filom\.gradle\caches\transforms-3\69d291d347a635c15fd15a8466543966\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:8.1.0] C:\Users\filom\.gradle\caches\transforms-3\0de2417dcdc5439e9a1493f649afdd9e\transformed\mapbox-android-telemetry-8.1.0\AndroidManifest.xml:12:5-68
+	android:name
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:8.1.0] C:\Users\filom\.gradle\caches\transforms-3\0de2417dcdc5439e9a1493f649afdd9e\transformed\mapbox-android-telemetry-8.1.0\AndroidManifest.xml:12:22-65
+uses-permission#android.permission.GET_TASKS
+ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:8.1.0] C:\Users\filom\.gradle\caches\transforms-3\0de2417dcdc5439e9a1493f649afdd9e\transformed\mapbox-android-telemetry-8.1.0\AndroidManifest.xml:16:5-18:38
+	android:maxSdkVersion
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:8.1.0] C:\Users\filom\.gradle\caches\transforms-3\0de2417dcdc5439e9a1493f649afdd9e\transformed\mapbox-android-telemetry-8.1.0\AndroidManifest.xml:18:9-35
+	android:name
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:8.1.0] C:\Users\filom\.gradle\caches\transforms-3\0de2417dcdc5439e9a1493f649afdd9e\transformed\mapbox-android-telemetry-8.1.0\AndroidManifest.xml:17:9-52
+provider#com.mapbox.android.telemetry.provider.MapboxTelemetryInitProvider
+ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:8.1.0] C:\Users\filom\.gradle\caches\transforms-3\0de2417dcdc5439e9a1493f649afdd9e\transformed\mapbox-android-telemetry-8.1.0\AndroidManifest.xml:21:9-25:39
+	android:authorities
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:8.1.0] C:\Users\filom\.gradle\caches\transforms-3\0de2417dcdc5439e9a1493f649afdd9e\transformed\mapbox-android-telemetry-8.1.0\AndroidManifest.xml:23:13-79
+	android:exported
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:8.1.0] C:\Users\filom\.gradle\caches\transforms-3\0de2417dcdc5439e9a1493f649afdd9e\transformed\mapbox-android-telemetry-8.1.0\AndroidManifest.xml:24:13-37
+	android:initOrder
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:8.1.0] C:\Users\filom\.gradle\caches\transforms-3\0de2417dcdc5439e9a1493f649afdd9e\transformed\mapbox-android-telemetry-8.1.0\AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:8.1.0] C:\Users\filom\.gradle\caches\transforms-3\0de2417dcdc5439e9a1493f649afdd9e\transformed\mapbox-android-telemetry-8.1.0\AndroidManifest.xml:22:13-93
+service#com.mapbox.android.telemetry.errors.ErrorReporterJobIntentService
+ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:8.1.0] C:\Users\filom\.gradle\caches\transforms-3\0de2417dcdc5439e9a1493f649afdd9e\transformed\mapbox-android-telemetry-8.1.0\AndroidManifest.xml:27:9-30:72
+	android:exported
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:8.1.0] C:\Users\filom\.gradle\caches\transforms-3\0de2417dcdc5439e9a1493f649afdd9e\transformed\mapbox-android-telemetry-8.1.0\AndroidManifest.xml:29:13-37
+	android:permission
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:8.1.0] C:\Users\filom\.gradle\caches\transforms-3\0de2417dcdc5439e9a1493f649afdd9e\transformed\mapbox-android-telemetry-8.1.0\AndroidManifest.xml:30:13-69
+	android:name
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:8.1.0] C:\Users\filom\.gradle\caches\transforms-3\0de2417dcdc5439e9a1493f649afdd9e\transformed\mapbox-android-telemetry-8.1.0\AndroidManifest.xml:28:13-93
+service#com.mapbox.android.telemetry.MapboxTelemetryService
+ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:8.1.0] C:\Users\filom\.gradle\caches\transforms-3\0de2417dcdc5439e9a1493f649afdd9e\transformed\mapbox-android-telemetry-8.1.0\AndroidManifest.xml:31:9-33:40
+	android:exported
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:8.1.0] C:\Users\filom\.gradle\caches\transforms-3\0de2417dcdc5439e9a1493f649afdd9e\transformed\mapbox-android-telemetry-8.1.0\AndroidManifest.xml:33:13-37
+	android:name
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:8.1.0] C:\Users\filom\.gradle\caches\transforms-3\0de2417dcdc5439e9a1493f649afdd9e\transformed\mapbox-android-telemetry-8.1.0\AndroidManifest.xml:32:13-79
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\filom\.gradle\caches\transforms-3\5518efa1c1ca29993905068db3381641\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\filom\.gradle\caches\transforms-3\5518efa1c1ca29993905068db3381641\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\filom\.gradle\caches\transforms-3\5518efa1c1ca29993905068db3381641\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78

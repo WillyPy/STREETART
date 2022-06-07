@@ -1,0 +1,2 @@
+com/example/streetart/BuildConfig.java
+ com.example.streetart.BuildConfig

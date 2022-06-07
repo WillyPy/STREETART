@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.mapbox.plugin:maps-locationcomponent:10.4.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8307a0800341697f143bb05dfd7bfc09/jetified-maps-locationcomponent-10.4.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8307a0800341697f143bb05dfd7bfc09/jetified-maps-locationcomponent-10.4.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8307a0800341697f143bb05dfd7bfc09/jetified-maps-locationcomponent-10.4.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mapbox.plugin/maps-locationcomponent/10.4.0/d9e95de21b971dee7cb1b0e4580c1dadbd8e5975/maps-locationcomponent-10.4.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mapbox.plugin/maps-locationcomponent/10.4.0/639044a490392132b9b2d4bc5f3faf5af285bde4/maps-locationcomponent-10.4.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

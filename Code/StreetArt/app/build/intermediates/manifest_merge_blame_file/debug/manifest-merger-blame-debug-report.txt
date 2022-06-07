@@ -1,0 +1,186 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.streetart"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->C:\Users\filom\Desktop\Uni-3Ano\2-semestre\Project_Charter\streetart\Code\StreetArt\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Users\filom\Desktop\Uni-3Ano\2-semestre\Project_Charter\streetart\Code\StreetArt\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+11-->C:\Users\filom\Desktop\Uni-3Ano\2-semestre\Project_Charter\streetart\Code\StreetArt\app\src\main\AndroidManifest.xml:5:5-78
+11-->C:\Users\filom\Desktop\Uni-3Ano\2-semestre\Project_Charter\streetart\Code\StreetArt\app\src\main\AndroidManifest.xml:5:22-76
+12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+12-->C:\Users\filom\Desktop\Uni-3Ano\2-semestre\Project_Charter\streetart\Code\StreetArt\app\src\main\AndroidManifest.xml:6:5-80
+12-->C:\Users\filom\Desktop\Uni-3Ano\2-semestre\Project_Charter\streetart\Code\StreetArt\app\src\main\AndroidManifest.xml:6:22-78
+13    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+13-->[com.mapbox.common:okhttp:21.2.1] C:\Users\filom\.gradle\caches\transforms-3\3e1e76ef3ff62698406ddb0235c03225\transformed\okhttp-21.2.1\AndroidManifest.xml:9:5-79
+13-->[com.mapbox.common:okhttp:21.2.1] C:\Users\filom\.gradle\caches\transforms-3\3e1e76ef3ff62698406ddb0235c03225\transformed\okhttp-21.2.1\AndroidManifest.xml:9:22-76
+14
+15    <uses-feature
+15-->[com.mapbox.maps:android-core:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\84cacbe0031808269eced4376ef94286\transformed\android-core-10.4.2\AndroidManifest.xml:10:5-12:35
+16        android:glEsVersion="0x00020000"
+16-->[com.mapbox.maps:android-core:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\84cacbe0031808269eced4376ef94286\transformed\android-core-10.4.2\AndroidManifest.xml:11:9-41
+17        android:required="true" />
+17-->[com.mapbox.maps:android-core:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\84cacbe0031808269eced4376ef94286\transformed\android-core-10.4.2\AndroidManifest.xml:12:9-32
+18    <uses-feature
+18-->[com.mapbox.maps:android-core:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\84cacbe0031808269eced4376ef94286\transformed\android-core-10.4.2\AndroidManifest.xml:13:5-15:36
+19        android:name="android.hardware.wifi"
+19-->[com.mapbox.maps:android-core:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\84cacbe0031808269eced4376ef94286\transformed\android-core-10.4.2\AndroidManifest.xml:14:9-45
+20        android:required="false" /> <!-- Implied by ACCESS_WIFI_STATE. -->
+20-->[com.mapbox.maps:android-core:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\84cacbe0031808269eced4376ef94286\transformed\android-core-10.4.2\AndroidManifest.xml:15:9-33
+21    <uses-permission android:name="android.permission.INTERNET" />
+21-->[com.mapbox.maps:android-core:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\84cacbe0031808269eced4376ef94286\transformed\android-core-10.4.2\AndroidManifest.xml:17:5-67
+21-->[com.mapbox.maps:android-core:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\84cacbe0031808269eced4376ef94286\transformed\android-core-10.4.2\AndroidManifest.xml:17:22-64
+22    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+22-->[com.mapbox.maps:android-core:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\84cacbe0031808269eced4376ef94286\transformed\android-core-10.4.2\AndroidManifest.xml:18:5-79
+22-->[com.mapbox.maps:android-core:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\84cacbe0031808269eced4376ef94286\transformed\android-core-10.4.2\AndroidManifest.xml:18:22-76
+23    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Required for CrashReporterJobIntentService on API levels below 25 -->
+23-->[com.mapbox.maps:android-core:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\84cacbe0031808269eced4376ef94286\transformed\android-core-10.4.2\AndroidManifest.xml:19:5-76
+23-->[com.mapbox.maps:android-core:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\84cacbe0031808269eced4376ef94286\transformed\android-core-10.4.2\AndroidManifest.xml:19:22-73
+24    <uses-permission android:name="android.permission.WAKE_LOCK" />
+24-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:8.1.0] C:\Users\filom\.gradle\caches\transforms-3\0de2417dcdc5439e9a1493f649afdd9e\transformed\mapbox-android-telemetry-8.1.0\AndroidManifest.xml:12:5-68
+24-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:8.1.0] C:\Users\filom\.gradle\caches\transforms-3\0de2417dcdc5439e9a1493f649afdd9e\transformed\mapbox-android-telemetry-8.1.0\AndroidManifest.xml:12:22-65
+25    <uses-permission
+25-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:8.1.0] C:\Users\filom\.gradle\caches\transforms-3\0de2417dcdc5439e9a1493f649afdd9e\transformed\mapbox-android-telemetry-8.1.0\AndroidManifest.xml:16:5-18:38
+26        android:name="android.permission.GET_TASKS"
+26-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:8.1.0] C:\Users\filom\.gradle\caches\transforms-3\0de2417dcdc5439e9a1493f649afdd9e\transformed\mapbox-android-telemetry-8.1.0\AndroidManifest.xml:17:9-52
+27        android:maxSdkVersion="20" />
+27-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:8.1.0] C:\Users\filom\.gradle\caches\transforms-3\0de2417dcdc5439e9a1493f649afdd9e\transformed\mapbox-android-telemetry-8.1.0\AndroidManifest.xml:18:9-35
+28
+29    <application
+29-->C:\Users\filom\Desktop\Uni-3Ano\2-semestre\Project_Charter\streetart\Code\StreetArt\app\src\main\AndroidManifest.xml:8:5-26:19
+30        android:allowBackup="true"
+30-->C:\Users\filom\Desktop\Uni-3Ano\2-semestre\Project_Charter\streetart\Code\StreetArt\app\src\main\AndroidManifest.xml:9:9-35
+31        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+31-->[androidx.core:core:1.7.0] C:\Users\filom\.gradle\caches\transforms-3\ec8778f597115131b77fc5968136215d\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+32        android:debuggable="true"
+33        android:extractNativeLibs="false"
+34        android:icon="@mipmap/ic_launcher"
+34-->C:\Users\filom\Desktop\Uni-3Ano\2-semestre\Project_Charter\streetart\Code\StreetArt\app\src\main\AndroidManifest.xml:10:9-43
+35        android:label="@string/app_name"
+35-->C:\Users\filom\Desktop\Uni-3Ano\2-semestre\Project_Charter\streetart\Code\StreetArt\app\src\main\AndroidManifest.xml:11:9-41
+36        android:roundIcon="@mipmap/ic_launcher_round"
+36-->C:\Users\filom\Desktop\Uni-3Ano\2-semestre\Project_Charter\streetart\Code\StreetArt\app\src\main\AndroidManifest.xml:12:9-54
+37        android:supportsRtl="true"
+37-->C:\Users\filom\Desktop\Uni-3Ano\2-semestre\Project_Charter\streetart\Code\StreetArt\app\src\main\AndroidManifest.xml:13:9-35
+38        android:testOnly="true"
+39        android:theme="@style/Theme.StreetArt" >
+39-->C:\Users\filom\Desktop\Uni-3Ano\2-semestre\Project_Charter\streetart\Code\StreetArt\app\src\main\AndroidManifest.xml:14:9-47
+40        <activity
+40-->C:\Users\filom\Desktop\Uni-3Ano\2-semestre\Project_Charter\streetart\Code\StreetArt\app\src\main\AndroidManifest.xml:15:9-25:20
+41            android:name="com.example.streetart.MainActivity"
+41-->C:\Users\filom\Desktop\Uni-3Ano\2-semestre\Project_Charter\streetart\Code\StreetArt\app\src\main\AndroidManifest.xml:16:13-41
+42            android:exported="true"
+42-->C:\Users\filom\Desktop\Uni-3Ano\2-semestre\Project_Charter\streetart\Code\StreetArt\app\src\main\AndroidManifest.xml:17:13-36
+43            android:label="@string/app_name"
+43-->C:\Users\filom\Desktop\Uni-3Ano\2-semestre\Project_Charter\streetart\Code\StreetArt\app\src\main\AndroidManifest.xml:18:13-45
+44            android:theme="@style/Theme.StreetArt.NoActionBar" >
+44-->C:\Users\filom\Desktop\Uni-3Ano\2-semestre\Project_Charter\streetart\Code\StreetArt\app\src\main\AndroidManifest.xml:19:13-63
+45            <intent-filter>
+45-->C:\Users\filom\Desktop\Uni-3Ano\2-semestre\Project_Charter\streetart\Code\StreetArt\app\src\main\AndroidManifest.xml:20:13-24:29
+46                <action android:name="android.intent.action.MAIN" />
+46-->C:\Users\filom\Desktop\Uni-3Ano\2-semestre\Project_Charter\streetart\Code\StreetArt\app\src\main\AndroidManifest.xml:21:17-69
+46-->C:\Users\filom\Desktop\Uni-3Ano\2-semestre\Project_Charter\streetart\Code\StreetArt\app\src\main\AndroidManifest.xml:21:25-66
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->C:\Users\filom\Desktop\Uni-3Ano\2-semestre\Project_Charter\streetart\Code\StreetArt\app\src\main\AndroidManifest.xml:23:17-77
+48-->C:\Users\filom\Desktop\Uni-3Ano\2-semestre\Project_Charter\streetart\Code\StreetArt\app\src\main\AndroidManifest.xml:23:27-74
+49            </intent-filter>
+50        </activity>
+51
+52        <provider
+52-->[com.mapbox.maps:android-core:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\84cacbe0031808269eced4376ef94286\transformed\android-core-10.4.2\AndroidManifest.xml:22:9-30:20
+53            android:name="androidx.startup.InitializationProvider"
+53-->[com.mapbox.maps:android-core:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\84cacbe0031808269eced4376ef94286\transformed\android-core-10.4.2\AndroidManifest.xml:23:13-67
+54            android:authorities="com.example.streetart.androidx-startup"
+54-->[com.mapbox.maps:android-core:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\84cacbe0031808269eced4376ef94286\transformed\android-core-10.4.2\AndroidManifest.xml:24:13-68
+55            android:exported="false" >
+55-->[com.mapbox.maps:android-core:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\84cacbe0031808269eced4376ef94286\transformed\android-core-10.4.2\AndroidManifest.xml:25:13-37
+56            <meta-data
+56-->[com.mapbox.maps:android-core:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\84cacbe0031808269eced4376ef94286\transformed\android-core-10.4.2\AndroidManifest.xml:27:13-29:52
+57                android:name="com.mapbox.maps.loader.MapboxMapsInitializer"
+57-->[com.mapbox.maps:android-core:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\84cacbe0031808269eced4376ef94286\transformed\android-core-10.4.2\AndroidManifest.xml:28:17-76
+58                android:value="androidx.startup" />
+58-->[com.mapbox.maps:android-core:10.4.2] C:\Users\filom\.gradle\caches\transforms-3\84cacbe0031808269eced4376ef94286\transformed\android-core-10.4.2\AndroidManifest.xml:29:17-49
+59            <!-- This entry makes MapboxSDKCommonInitializer discoverable. -->
+60            <meta-data
+60-->[com.mapbox.common:common:21.2.1] C:\Users\filom\.gradle\caches\transforms-3\3f045ac70f87367e00a19596fc6dba1e\transformed\common-21.2.1\AndroidManifest.xml:20:13-22:52
+61                android:name="com.mapbox.common.MapboxSDKCommonInitializer"
+61-->[com.mapbox.common:common:21.2.1] C:\Users\filom\.gradle\caches\transforms-3\3f045ac70f87367e00a19596fc6dba1e\transformed\common-21.2.1\AndroidManifest.xml:21:17-76
+62                android:value="androidx.startup" />
+62-->[com.mapbox.common:common:21.2.1] C:\Users\filom\.gradle\caches\transforms-3\3f045ac70f87367e00a19596fc6dba1e\transformed\common-21.2.1\AndroidManifest.xml:22:17-49
+63            <meta-data
+63-->[androidx.emoji2:emoji2:1.0.0] C:\Users\filom\.gradle\caches\transforms-3\69d291d347a635c15fd15a8466543966\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+64                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+64-->[androidx.emoji2:emoji2:1.0.0] C:\Users\filom\.gradle\caches\transforms-3\69d291d347a635c15fd15a8466543966\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+65                android:value="androidx.startup" />
+65-->[androidx.emoji2:emoji2:1.0.0] C:\Users\filom\.gradle\caches\transforms-3\69d291d347a635c15fd15a8466543966\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+66            <meta-data
+66-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\filom\.gradle\caches\transforms-3\5518efa1c1ca29993905068db3381641\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+67                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+67-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\filom\.gradle\caches\transforms-3\5518efa1c1ca29993905068db3381641\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+68                android:value="androidx.startup" />
+68-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\filom\.gradle\caches\transforms-3\5518efa1c1ca29993905068db3381641\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+69        </provider>
+70
+71        <receiver
+71-->[com.mapbox.common:common:21.2.1] C:\Users\filom\.gradle\caches\transforms-3\3f045ac70f87367e00a19596fc6dba1e\transformed\common-21.2.1\AndroidManifest.xml:25:9-32:20
+72            android:name="com.mapbox.common.location.LocationUpdatesReceiver"
+72-->[com.mapbox.common:common:21.2.1] C:\Users\filom\.gradle\caches\transforms-3\3f045ac70f87367e00a19596fc6dba1e\transformed\common-21.2.1\AndroidManifest.xml:26:13-78
+73            android:enabled="false"
+73-->[com.mapbox.common:common:21.2.1] C:\Users\filom\.gradle\caches\transforms-3\3f045ac70f87367e00a19596fc6dba1e\transformed\common-21.2.1\AndroidManifest.xml:27:13-36
+74            android:exported="false" >
+74-->[com.mapbox.common:common:21.2.1] C:\Users\filom\.gradle\caches\transforms-3\3f045ac70f87367e00a19596fc6dba1e\transformed\common-21.2.1\AndroidManifest.xml:28:13-37
+75            <intent-filter>
+75-->[com.mapbox.common:common:21.2.1] C:\Users\filom\.gradle\caches\transforms-3\3f045ac70f87367e00a19596fc6dba1e\transformed\common-21.2.1\AndroidManifest.xml:29:13-31:29
+76                <action android:name="com.mapbox.common.location.LocationUpdatesReceiver.ACTION_PROCESS_LOCATION_UPDATES" />
+76-->[com.mapbox.common:common:21.2.1] C:\Users\filom\.gradle\caches\transforms-3\3f045ac70f87367e00a19596fc6dba1e\transformed\common-21.2.1\AndroidManifest.xml:30:17-125
+76-->[com.mapbox.common:common:21.2.1] C:\Users\filom\.gradle\caches\transforms-3\3f045ac70f87367e00a19596fc6dba1e\transformed\common-21.2.1\AndroidManifest.xml:30:25-122
+77            </intent-filter>
+78        </receiver>
+79
+80        <uses-library
+80-->[androidx.window:window:1.0.0] C:\Users\filom\.gradle\caches\transforms-3\41004c6afba06d0783c2e16168671df4\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+81            android:name="androidx.window.extensions"
+81-->[androidx.window:window:1.0.0] C:\Users\filom\.gradle\caches\transforms-3\41004c6afba06d0783c2e16168671df4\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+82            android:required="false" />
+82-->[androidx.window:window:1.0.0] C:\Users\filom\.gradle\caches\transforms-3\41004c6afba06d0783c2e16168671df4\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+83        <uses-library
+83-->[androidx.window:window:1.0.0] C:\Users\filom\.gradle\caches\transforms-3\41004c6afba06d0783c2e16168671df4\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+84            android:name="androidx.window.sidecar"
+84-->[androidx.window:window:1.0.0] C:\Users\filom\.gradle\caches\transforms-3\41004c6afba06d0783c2e16168671df4\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+85            android:required="false" />
+85-->[androidx.window:window:1.0.0] C:\Users\filom\.gradle\caches\transforms-3\41004c6afba06d0783c2e16168671df4\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+86
+87        <provider
+87-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:8.1.0] C:\Users\filom\.gradle\caches\transforms-3\0de2417dcdc5439e9a1493f649afdd9e\transformed\mapbox-android-telemetry-8.1.0\AndroidManifest.xml:21:9-25:39
+88            android:name="com.mapbox.android.telemetry.provider.MapboxTelemetryInitProvider"
+88-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:8.1.0] C:\Users\filom\.gradle\caches\transforms-3\0de2417dcdc5439e9a1493f649afdd9e\transformed\mapbox-android-telemetry-8.1.0\AndroidManifest.xml:22:13-93
+89            android:authorities="com.example.streetart.mapboxtelemetryinitprovider"
+89-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:8.1.0] C:\Users\filom\.gradle\caches\transforms-3\0de2417dcdc5439e9a1493f649afdd9e\transformed\mapbox-android-telemetry-8.1.0\AndroidManifest.xml:23:13-79
+90            android:exported="false"
+90-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:8.1.0] C:\Users\filom\.gradle\caches\transforms-3\0de2417dcdc5439e9a1493f649afdd9e\transformed\mapbox-android-telemetry-8.1.0\AndroidManifest.xml:24:13-37
+91            android:initOrder="100" />
+91-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:8.1.0] C:\Users\filom\.gradle\caches\transforms-3\0de2417dcdc5439e9a1493f649afdd9e\transformed\mapbox-android-telemetry-8.1.0\AndroidManifest.xml:25:13-36
+92
+93        <service
+93-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:8.1.0] C:\Users\filom\.gradle\caches\transforms-3\0de2417dcdc5439e9a1493f649afdd9e\transformed\mapbox-android-telemetry-8.1.0\AndroidManifest.xml:27:9-30:72
+94            android:name="com.mapbox.android.telemetry.errors.ErrorReporterJobIntentService"
+94-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:8.1.0] C:\Users\filom\.gradle\caches\transforms-3\0de2417dcdc5439e9a1493f649afdd9e\transformed\mapbox-android-telemetry-8.1.0\AndroidManifest.xml:28:13-93
+95            android:exported="false"
+95-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:8.1.0] C:\Users\filom\.gradle\caches\transforms-3\0de2417dcdc5439e9a1493f649afdd9e\transformed\mapbox-android-telemetry-8.1.0\AndroidManifest.xml:29:13-37
+96            android:permission="android.permission.BIND_JOB_SERVICE" />
+96-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:8.1.0] C:\Users\filom\.gradle\caches\transforms-3\0de2417dcdc5439e9a1493f649afdd9e\transformed\mapbox-android-telemetry-8.1.0\AndroidManifest.xml:30:13-69
+97        <service
+97-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:8.1.0] C:\Users\filom\.gradle\caches\transforms-3\0de2417dcdc5439e9a1493f649afdd9e\transformed\mapbox-android-telemetry-8.1.0\AndroidManifest.xml:31:9-33:40
+98            android:name="com.mapbox.android.telemetry.MapboxTelemetryService"
+98-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:8.1.0] C:\Users\filom\.gradle\caches\transforms-3\0de2417dcdc5439e9a1493f649afdd9e\transformed\mapbox-android-telemetry-8.1.0\AndroidManifest.xml:32:13-79
+99            android:exported="false" />
+99-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:8.1.0] C:\Users\filom\.gradle\caches\transforms-3\0de2417dcdc5439e9a1493f649afdd9e\transformed\mapbox-android-telemetry-8.1.0\AndroidManifest.xml:33:13-37
+100    </application>
+101
+102</manifest>

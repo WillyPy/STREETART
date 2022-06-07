@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.mapbox.plugin:maps-logo:10.4.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5e9221a446d034aa5b2120ba5f15fc74/jetified-maps-logo-10.4.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5e9221a446d034aa5b2120ba5f15fc74/jetified-maps-logo-10.4.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5e9221a446d034aa5b2120ba5f15fc74/jetified-maps-logo-10.4.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mapbox.plugin/maps-logo/10.4.0/8a2473c6c73c3d6f397524a593a034d3044986f1/maps-logo-10.4.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mapbox.plugin/maps-logo/10.4.0/ac0cd81cfda75576f15a999a2c3bcd719c0ea4dd/maps-logo-10.4.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.mapbox.plugin:maps-scalebar:10.4.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/23fae0e7a8d3bc514f6d8b42fae64e44/jetified-maps-scalebar-10.4.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/23fae0e7a8d3bc514f6d8b42fae64e44/jetified-maps-scalebar-10.4.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/23fae0e7a8d3bc514f6d8b42fae64e44/jetified-maps-scalebar-10.4.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mapbox.plugin/maps-scalebar/10.4.0/80949bfc808f1041141bdcca7258c31f9eba94b/maps-scalebar-10.4.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mapbox.plugin/maps-scalebar/10.4.0/3479d90f7ae030e24f2c60ed9695b413b0ea6109/maps-scalebar-10.4.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

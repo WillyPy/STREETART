@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.mapbox.plugin:maps-gestures:10.4.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3954ba156e1085ff341bb832d842a4a9/jetified-maps-gestures-10.4.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3954ba156e1085ff341bb832d842a4a9/jetified-maps-gestures-10.4.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3954ba156e1085ff341bb832d842a4a9/jetified-maps-gestures-10.4.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mapbox.plugin/maps-gestures/10.4.0/22adec196639d3c30ff16f9525da0616b53e4f58/maps-gestures-10.4.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mapbox.plugin/maps-gestures/10.4.0/e017d01efc7385509dbca47aec913aaddc5762f1/maps-gestures-10.4.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

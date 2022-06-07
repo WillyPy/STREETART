@@ -17,3 +17,4 @@ interface UsersApi {
     @GET("/api/users")
     suspend fun getUsers(): Response<List<UserList>>
 }
+
