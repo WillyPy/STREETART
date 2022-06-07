@@ -34,6 +34,7 @@ module.exports.loginUser = async function (user) {
     let result = await pool.query(sql, [user.username]);
     let passwordb = result.rows[0].user_password;
     let valor = bcrypt.compareSync(user.password, passwordb);
+    for (let res of result.rows) delete res.user_password;
     if (result.rows.length > 0 && valor)
       return {
         status: 200,
