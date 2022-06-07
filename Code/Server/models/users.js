@@ -34,13 +34,14 @@ module.exports.loginUser = async function (user) {
     let result = await pool.query(sql, [user.username]);
     let passwordb = result.rows[0].user_password;
     let valor = bcrypt.compareSync(user.password, passwordb);
-    for (let res of result.rows) delete res.user_password;
-    if (result.rows.length > 0 && valor)
+
+    if (result.rows.length > 0 && valor) {
+      for (let res of result.rows[0]) delete res.user_password;
       return {
         status: 200,
         result: result.rows[0],
       };
-    else return { status: 401, result: { msg: "Wrong email or password" } };
+    } else return { status: 401, result: { msg: "Wrong email or password" } };
   } catch (error) {
     console.log(error);
     return { status: 500, result: { msg: "Wrong username or password" } };
