@@ -2,11 +2,13 @@ package com.streetsa
 
 import android.Manifest
 import android.annotation.SuppressLint
+import android.content.Intent
 import android.content.pm.PackageManager
 import android.location.Location
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.widget.Button
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 
@@ -43,6 +45,13 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
             lastKnownLocation = savedInstanceState.getParcelable(KEY_LOCATION)
             cameraPosition = savedInstanceState.getParcelable(KEY_CAMERA_POSITION)
         }
+
+        val toMain = findViewById<Button>(R.id.main)
+        toMain.setOnClickListener {
+            val intent = Intent(this, MainActivity::class .java)
+            startActivity(intent)
+        }
+
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
         val mapFragment = supportFragmentManager
             .findFragmentById(R.id.map) as SupportMapFragment
@@ -69,7 +78,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
                 val arts = result.body()
                 for(art in arts!!){
                     val artPosition = LatLng(art.art_coords.x,art.art_coords.y)
-                    Log.d("coord: ", artPosition.toString())
+                    //Log.d("coord: ", artPosition.toString())
                     mMap.addMarker(MarkerOptions().title(art.art_address).position(artPosition))
                     mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(iade, zoomLevel))
                 }
@@ -114,6 +123,8 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
             if (locationPermissionGranted) {
                 mMap.isMyLocationEnabled = true
                 mMap.uiSettings.isMyLocationButtonEnabled = true
+                mMap.uiSettings.isZoomControlsEnabled=true
+                mMap.uiSettings.isCompassEnabled=true
             } else {
                 mMap.isMyLocationEnabled = false
                 mMap.uiSettings.isMyLocationButtonEnabled = false
