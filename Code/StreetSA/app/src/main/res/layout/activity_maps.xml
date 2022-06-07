@@ -7,10 +7,30 @@
     tools:context=".MapsActivity">
 
     <Button
-        android:id="@+id/main"
+        android:id="@+id/login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/title_main"
+        android:text="@string/title_login"
+        map:layout_constraintBottom_toBottomOf="parent"
+        map:layout_constraintEnd_toEndOf="parent"
+        map:layout_constraintHorizontal_bias="0.235"
+        map:layout_constraintStart_toStartOf="parent"
+        map:layout_constraintTop_toTopOf="parent"
+        map:layout_constraintVertical_bias="0.953"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/route"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:text="@string/title_route"
+        map:layout_constraintBottom_toBottomOf="parent"
+        map:layout_constraintEnd_toEndOf="parent"
+        map:layout_constraintHorizontal_bias="0.054"
+        map:layout_constraintStart_toEndOf="@+id/login"
+        map:layout_constraintTop_toTopOf="parent"
+        map:layout_constraintVertical_bias="0.953"
         tools:ignore="MissingConstraints" />
 
     <androidx.fragment.app.FragmentContainerView
@@ -18,5 +38,8 @@
         android:name="com.google.android.gms.maps.SupportMapFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".MapsActivity" />
+        tools:context=".MapsActivity"
+        tools:layout_editor_absoluteX="-32dp"
+        tools:layout_editor_absoluteY="0dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

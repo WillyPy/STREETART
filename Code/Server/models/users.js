@@ -35,7 +35,10 @@ module.exports.loginUser = async function (user) {
     let passwordb = result.rows[0].user_password;
     let valor = bcrypt.compareSync(user.password, passwordb);
     if (result.rows.length > 0 && valor)
-      return { status: 200, result: result.rows[0] };
+      return {
+        status: 200,
+        result: result.rows[0],
+      };
     else return { status: 401, result: { msg: "Wrong email or password" } };
   } catch (error) {
     console.log(error);

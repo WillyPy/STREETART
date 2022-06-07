@@ -4,6 +4,7 @@ import android.Manifest
 import android.annotation.SuppressLint
 import android.content.Intent
 import android.content.pm.PackageManager
+import android.graphics.Color
 import android.location.Location
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -19,6 +20,10 @@ import com.google.android.gms.maps.SupportMapFragment
 import com.google.android.gms.maps.model.CameraPosition
 import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.MarkerOptions
+import com.google.android.gms.maps.model.PolylineOptions
+import com.maps.route.extensions.drawMarker
+import com.maps.route.extensions.drawRouteOnMap
+import com.maps.route.extensions.moveCameraOnMap
 import com.streetsa.databinding.ActivityMapsBinding
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
@@ -46,11 +51,28 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
             cameraPosition = savedInstanceState.getParcelable(KEY_CAMERA_POSITION)
         }
 
-        val toMain = findViewById<Button>(R.id.main)
-        toMain.setOnClickListener {
-            val intent = Intent(this, MainActivity::class .java)
+        val toLogin = findViewById<Button>(R.id.login)
+        toLogin.setOnClickListener {
+            val intent = Intent(this, LoginActivity::class .java)
             startActivity(intent)
         }
+
+        val createRoute = findViewById<Button>(R.id.route)
+        createRoute.setOnClickListener {
+            val options = PolylineOptions()
+            options.color(Color.RED)
+            options.width(5f)
+            mMap.run {
+                //if you want to move the map on specific location
+                moveCameraOnMap(latLng = LatLng(38.7065681,-9.1519146))
+                drawRouteOnMap(
+                    getString(R.string.google_map_api_key),//your API key
+                    context = applicationContext, //Activity context
+                    source = LatLng(38.7065681,-9.1519146), // Source from where you want to draw path
+                    destination =  LatLng(38.789169, -9.190097) // destination to where you want to draw path
+
+                )
+            }}
 
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
         val mapFragment = supportFragmentManager
@@ -113,7 +135,6 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         }
 
     }
-
     @SuppressLint("MissingPermission")
     private fun updateLocationUI(){
         if(mMap==null){
@@ -135,5 +156,4 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
             Log.e("Exception: %s", e.message, e)
         }
     }
-    
 }

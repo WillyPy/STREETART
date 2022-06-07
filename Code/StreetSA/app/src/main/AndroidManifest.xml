@@ -35,10 +35,15 @@
         </activity>
         <!--child activity-->
         <activity
+            android:name=".LoginActivity"
+            android:exported="false"
+            android:label="@string/title_activity_login"
+            android:parentActivityName=".MapsActivity"/>
+        <activity
             android:name=".MainActivity"
             android:exported="false"
             android:label="@string/title_activity_main"
-            android:parentActivityName=".MapsActivity"/>
+            />
     </application>
 
 </manifest>

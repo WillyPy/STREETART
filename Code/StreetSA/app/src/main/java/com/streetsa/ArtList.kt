@@ -1,6 +1,5 @@
 package com.streetsa
 
-import com.google.android.gms.maps.model.LatLng
 import retrofit2.Response
 import retrofit2.http.GET
 

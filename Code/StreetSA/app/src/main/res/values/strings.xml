@@ -8,5 +8,10 @@
     <string name="title_profile">Profile</string>
     <string name="title_map">Mapa</string>
     <string name="title_main">Main</string>
+    <string name="title_route">Route</string>
     <string name="title_myMap">Mapa</string>
+    <string name="google_map_api_key">AIzaSyD-s3O0P91z7LAxMLaW1CqpUEjf6Ircf4w</string>
+    <string name="title_login">Login</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="string_signin">Sign in</string>
 </resources>

@@ -3,16 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/dkami/Ambiente de Trabalho/StreetArt/StreetArt/Code/StreetSA/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.194" />
-        <entry key="..\:/Users/dkami/Ambiente de Trabalho/StreetArt/StreetArt/Code/StreetSA/app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="..\:/Users/dkami/Ambiente de Trabalho/StreetArt/StreetArt/Code/StreetSA/app/src/main/res/layout/activity_maps.xml" value="0.1" />
-        <entry key="..\:/Users/dkami/Ambiente de Trabalho/StreetArt/StreetArt/Code/StreetSA/app/src/main/res/layout/fragment_dashboard.xml" value="0.19701086956521738" />
-        <entry key="..\:/Users/dkami/Ambiente de Trabalho/StreetArt/StreetArt/Code/StreetSA/app/src/main/res/layout/fragment_friends.xml" value="0.1" />
-        <entry key="..\:/Users/dkami/Ambiente de Trabalho/StreetArt/StreetArt/Code/StreetSA/app/src/main/res/layout/fragment_home.xml" value="0.19701086956521738" />
-        <entry key="..\:/Users/dkami/Ambiente de Trabalho/StreetArt/StreetArt/Code/StreetSA/app/src/main/res/layout/fragment_notifications.xml" value="0.19701086956521738" />
-        <entry key="..\:/Users/dkami/Ambiente de Trabalho/StreetArt/StreetArt/Code/StreetSA/app/src/main/res/layout/fragment_profile.xml" value="0.1" />
-        <entry key="..\:/Users/dkami/Ambiente de Trabalho/StreetArt/StreetArt/Code/StreetSA/app/src/main/res/menu/bottom_nav_menu.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/dkami/AndroidStudioProjects/StreetSA/app/src/main/res/layout/activity_maps.xml" value="0.1" />
+        <entry key="..\:/Users/filom/Desktop/Uni-3Ano/2-semestre/Project_Charter/streetart/Code/StreetSA/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/Users/filom/Desktop/Uni-3Ano/2-semestre/Project_Charter/streetart/Code/StreetSA/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/filom/Desktop/Uni-3Ano/2-semestre/Project_Charter/streetart/Code/StreetSA/app/src/main/res/layout/activity_maps.xml" value="0.1" />
+        <entry key="..\:/Users/filom/Desktop/Uni-3Ano/2-semestre/Project_Charter/streetart/Code/StreetSA/app/src/main/res/layout/fragment_profile.xml" value="0.10157041540020263" />
+        <entry key="..\:/Users/filom/Desktop/Uni-3Ano/2-semestre/Project_Charter/streetart/Code/StreetSA/app/src/main/res/layout/layout.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/filom/Desktop/Uni-3Ano/2-semestre/Project_Charter/streetart/Code/StreetSA/app/src/main/res/menu/bottom_nav_menu.xml" value="0.264" />
+        <entry key="..\:/Users/filom/Desktop/Uni-3Ano/2-semestre/Project_Charter/streetart/Code/StreetSA/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/Users/filom/Desktop/Uni-3Ano/2-semestre/Project_Charter/streetart/Code/StreetSA/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
       </map>
     </option>
   </component>
