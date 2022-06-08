@@ -36,7 +36,7 @@ module.exports.loginUser = async function (user) {
     let valor = bcrypt.compareSync(user.password, passwordb);
 
     if (result.rows.length > 0 && valor) {
-      for (let res of result.rows[0]) delete res.user_password;
+      for (let res of result.rows) delete res.user_password;
       return {
         status: 200,
         result: result.rows[0],

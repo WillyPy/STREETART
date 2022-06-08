@@ -1,5 +1,8 @@
 package com.streetsa
 
+
+import android.text.Editable
+import okhttp3.RequestBody
 import okhttp3.ResponseBody
 import retrofit2.Response
 import retrofit2.http.Body
@@ -16,6 +19,8 @@ data class UserList (
     val user_bdate: String,
     val user_gender: String
 )
+
+
 data class SignInBody(val user_username: String, val user_password: String)
 interface UsersApi {
     @GET("/api/users")
@@ -23,7 +28,7 @@ interface UsersApi {
 
     @Headers("Content-Type:application/json")
     @POST("/api/users/login")
-    suspend fun signin(@Body info: SignInBody): retrofit2.Call<ResponseBody>
+    suspend fun signin(@Body signInBody: SignInBody):  retrofit2.Call<ResponseBody>
 }
 
 

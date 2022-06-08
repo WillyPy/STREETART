@@ -18,6 +18,7 @@ router.get("/:id", async function (req, res, next) {
 router.post("/login", async function (req, res, next) {
   let user = req.body;
   let result = await uModel.loginUser(user);
+  console.log(result.result);
   res.status(result.status).send(result.result);
 });
 

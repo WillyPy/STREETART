@@ -12,6 +12,8 @@ import android.util.Log
 import android.widget.Button
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
+import com.google.android.gms.location.FusedLocationProviderClient
+import com.google.android.gms.location.LocationServices
 
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap
@@ -33,12 +35,14 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
 
     private lateinit var mMap: GoogleMap
     private lateinit var binding: ActivityMapsBinding
+    private lateinit var fusedLocationClient: FusedLocationProviderClient
     private var locationPermissionGranted = false
     private val PERMISSIONS_REQUEST_ACCESS_FINE_LOCATION = 1
     private val KEY_CAMERA_POSITION = "Camera_position"
     private val KEY_LOCATION = "location"
     private var cameraPosition: CameraPosition? = null
     private var lastKnownLocation: Location? = null
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -56,7 +60,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
             val intent = Intent(this, LoginActivity::class .java)
             startActivity(intent)
         }
-
+        fusedLocationClient = LocationServices.getFusedLocationProviderClient(this)
         val createRoute = findViewById<Button>(R.id.route)
         createRoute.setOnClickListener {
             val options = PolylineOptions()
