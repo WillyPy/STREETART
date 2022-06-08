@@ -8,8 +8,7 @@ cloudinary.config({
 
 module.exports.getAllArts = async function () {
   try {
-    let sql =
-      "select * from arts inner join images on art_id=art_fk_id inner join ";
+    let sql = "select * from arts inner join images on art_id=art_fk_id";
     let result = await pool.query(sql);
     let arts = result.rows;
     console.log(result);
