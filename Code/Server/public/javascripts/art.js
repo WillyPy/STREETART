@@ -1,11 +1,10 @@
-var mymap;
 var aId = sessionStorage.getItem("artId");
 window.onload = async function () {
-  loadArt();
+  console.log(aId);
+  loadArt(aId);
 };
 async function loadArt(aId) {
   try {
-    console.log(aId);
     let images = await $.ajax({
       url: `/api/arts/${aId}/images`,
       method: `get`,
