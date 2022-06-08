@@ -225,3 +225,15 @@ select {
 #reFielB:hover {
   background-color: rgba(243, 182, 60, 0.678);
 }
+
+#arts {
+  display: flex;
+  flex-wrap: wrap;
+}
+.art {
+  background-color: whitesmoke;
+  border: 1px solid #c3c3c3;
+  margin: 1.5%;
+  padding: 1%;
+  width: 25vw;
+}
