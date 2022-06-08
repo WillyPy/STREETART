@@ -1,10 +1,26 @@
-var mymap;
-var uId = sessionStorage.getItem("userId");
-var aId = sessionStorage.getItem("artistId");
-
 window.onload = async function () {
   getLocation();
+  getArtists();
 };
+
+async function getArtists() {
+  try {
+    let result = await $.ajax({
+      url: `/api/artists`,
+      method: "get",
+      datatype: "json",
+    });
+
+    for (let artist of result) {
+      let objectElement = document.createElement("option");
+      objectElement.value = artist.artist_id;
+      objectElement.innerHTML = artist.artist_name;
+      document.getElementById("Artists").appendChild(objectElement);
+    }
+  } catch (error) {
+    console.log(error);
+  }
+}
 
 function getLocation() {
   if (navigator.geolocation) {
@@ -47,15 +63,22 @@ async function showPosition(position) {
 
   try {
     let arts = await $.ajax({
-      url: `/api/artists/${aId}/arts`,
+      url: `/api/arts`,
       method: "get",
       datatype: "json",
     });
     console.log(arts);
     for (let art of arts) {
-      marker = new mapboxgl.Marker()
-        .setLngLat([art.art_coords.y, art.art_coords.x])
-        .addTo(mymap);
+      if (art.image_link) {
+        marker = new mapboxgl.Marker()
+          .setLngLat([art.art_coords.y, art.art_coords.x])
+          .setPopup(
+            new mapboxgl.Popup({ offset: 25 }).setHTML(
+              `<img src="${art.image_link}">`
+            )
+          )
+          .addTo(mymap);
+      }
     }
   } catch (error) {
     console.log(error);

@@ -1,38 +1,86 @@
-<html>
-  <head>
-    <title>Express</title>
-    <link rel="stylesheet" href="/stylesheets/style.css" />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Audiowide"
-    />
-    <link
-      href="https://api.mapbox.com/mapbox-gl-js/v2.6.0/mapbox-gl.css"
-      rel="stylesheet"
-    />
-    <script src="https://api.mapbox.com/mapbox-gl-js/v2.6.0/mapbox-gl.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.0/mapbox-gl-directions.js"></script>
-    <link
-      rel="stylesheet"
-      href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.0/mapbox-gl-directions.css"
-      type="text/css"
-    />
-    <script src="javascripts/map.js"></script>
-  </head>
 
-  <body>
-    <header>
-      <label for="city">Projects:</label>
-      <select id="Projects"></select>
-      <label for="city">Artists:</label>
-      <select id="Artists"></select>
-      <input type="button" value="Filter" onclick="Filter()" />
-      <input type="button" value="Login" onclick="loginPage()" />
+        <html lang="en">
+          <head>
+            <link rel="stylesheet" href="/stylesheets/feed.css" />
+            <link
+              rel="stylesheet"
+              href="https://fonts.googleapis.com/css?family=Audiowide"
+            />
+            <link
+              href="https://api.mapbox.com/mapbox-gl-js/v2.6.0/mapbox-gl.css"
+              rel="stylesheet"
+            />
+            <script src="https://api.mapbox.com/mapbox-gl-js/v2.6.0/mapbox-gl.js"></script>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+            <link
+              rel="stylesheet"
+              href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+              integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+              crossorigin=""
+            />
+            <script
+              src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+              integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+              crossorigin=""
+            ></script>
+            <script src="javascripts/map2.js"></script>
+            <link rel="shortcut icon" href="images/favicon.ico" />
+            <title>Softpadel</title>
+          </head>
+          <body>
+            <header>
+  
+              <section>
+        <a href="userLogin.html">Login</a>
+        
+            </header>
+            <main>
+              <section class="date">
+                <label for="option">Filter by artist:</label>
+                <select
+                  onchange="filterByArtist()"
+                  name=""
+                  id="Artists"
+                ></select>
+              </section>
+              <section id="mapid"></section>
+
+              <section id="conteiner"></section>
+            </main>
+            <footer></footer>
+            <footer>
+              <section id="first">
+                <a class="logofoot" href="index.html"
+                  ><img
+                    class="logofoot"
+                    src="images/Logotipo-Softpadel-2.2.png"
+                    alt="logotipo"
+                /></a>
+                <span id="borderinfo"></span>
+              </section>
+              <section id="second">
+                <section>
+                  <h1>Redes Sociais</h1>
+                  <a href=""><h5>Curta-nos no Facebook</h5></a>
+                  <a href=""><h5>Siga-nos no Instagram</h5></a>
+                  <a href=""><h5>Blog do SoftPadel</h5></a>
+                </section>
+                <section>
+                  <h1>AJUDA</h1>
+                  <a href=""><h5>Configurações de conta</h5></a>
+                  <a href=""><h5>Suporte</h5></a>
+                  <a href=""><h5>Desenvolvedor/API</h5></a>
+                </section>
+                <section>
+                  <h1>SOBRE NÓS</h1>
+                  <a href=""><h5>Entre para nossa equipe</h5></a>
+                  <a href=""><h5>Loja Under Armour</h5></a>
+                </section>
+              </section>
+            </footer>
+          </body>
+        </html>
+      </section>
     </header>
-    <main>
-      <section id="mapid"></section>
-      <section id="conteiner"></section>
-    </main>
   </body>
 </html>

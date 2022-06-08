@@ -13,6 +13,17 @@ module.exports.getAllArtists = async function () {
     return { status: 500, result: error };
   }
 };
+module.exports.getArtistById = async function (id) {
+  try {
+    let sql = "select * from artists where artist_id=$1";
+    let result = await pool.query(sql, [id]);
+    if (result.rows.length > 0) return { status: 200, result: result.rows[0] };
+    else return { status: 404, result: { msg: "Art not found" } };
+  } catch (error) {
+    console.log(error);
+    return { status: 500, result: error };
+  }
+};
 module.exports.getArtistArts = async function (id) {
   try {
     let sql = `select * from artists inner join arts_artists on  artist_id=artist_fk_id 
@@ -20,6 +31,18 @@ inner join arts on art_fk_id= art_id where artist_id=$1`;
     let result = await pool.query(sql, [id]);
     if (result.rows.length > 0) return { status: 200, result: result.rows };
     else return { status: 404, result: { msg: "artist not found" } };
+  } catch (error) {
+    console.log(error);
+    return { status: 500, result: error };
+  }
+};
+module.exports.insertArt = async function (art) {
+  try {
+    let result = cloudinary.uploader.upload(image.path, {
+      public_id: `streetart/${image.name}`,
+      tags: `streetart`,
+    });
+    return { status: 200, result: result };
   } catch (error) {
     console.log(error);
     return { status: 500, result: error };

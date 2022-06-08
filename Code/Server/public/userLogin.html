@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="stylesheets/userSign.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Audiowide"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="javascripts/userLogin.js"></script>
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <title>Softpadel</title>
+  </head>
+  <body>
+    <main>
+      <section class="header"></section>
+
+      <section class="main">
+        <section id="formulario">
+          <h1 class="text">Sign in to StreetArt</h1>
+          <h5 class="subTexto">Enter your details below</h5>
+          <input
+            class="inputText"
+            type="text"
+            id="username"
+            placeholder="Username:"
+          /><br />
+          <input
+            class="inputText"
+            type="password"
+            id="password"
+            placeholder="Password:"
+          /><br /><br />
+          <a>Forgot password?</a><br /><br />
+          <input class="login" type="button" value="LOGIN" onclick="login()" />
+          <a href="userSign.html">
+            <input id="sign" type="button" value="SIGN UP" />
+          </a>
+          <p id="msg"></p>
+        </section>
+      </section>
+
+      <section class="footer">
+        <section id="infoSection">
+          <a class="info" href=""><h5>Important information</h5></a>
+          <span id="borderinfo"></span>
+          <a class="info" href=""><h5>Privacy policy</h5></a>
+        </section>
+        <h5 class="subTexto">© Copyright 2021 Softpadel.</h5>
+      </section>
+
+      <section class="background">
+        <section id="index">
+          <a href="index.html"
+            ><img src="WhatsApp Image 2022-05-18 at 13.59.49.jpeg"
+          /></a>
+        </section>
+        <section id="registo">
+          <h4 id="texth4">Don't have an account?</h4>
+          <a id="registoText" href="userSign.html">CREATE</a>
+        </section>
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,15 +1,62 @@
 body {
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  padding: 5px;
+  font: 14px "Audiowide", sans-serif;
+  display: grid;
+  grid-template-areas: "h" "m" "f";
 }
 
 a {
   color: #00b7ff;
 }
 
-#mapid {
-  height: 100vh;
+body > header {
+  grid-area: h;
+  padding: 2px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+}
+body > header > section {
+  display: flex;
+  flex-direction: row-reverse;
+}
+body > header > section a {
+  flex-direction: row-reverse;
+  color: #222121;
+  text-align: center;
+  padding: 8px;
+  text-decoration: none;
+  font-size: 17px;
+}
+body > header > section a:hover {
+  background: #ddd;
+  color: black;
+}
+body > header > .logo {
+  float: left;
+  height: 30px;
+  width: 253.51px;
 }
 
-img {
-  width: 20vh;
+body > footer {
+  grid-area: f;
+  background-color: gray;
+  padding: 5px;
+  color: white;
+  position: relative;
+  bottom: 0;
+}
+
+body > main {
+  grid-area: m;
+  display: flex;
+  flex-direction: column;
+}
+body > main > section img {
+  width: 280px;
+}
+body > main > section p {
+  text-align: justify;
+  color: #222121;
 }

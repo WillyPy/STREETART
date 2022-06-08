@@ -1,0 +1,207 @@
+body {
+  font: 14px "Audiowide", sans-serif;
+  margin: 0%;
+  display: grid;
+  grid-template-areas: "h h" "m m" "f f";
+}
+body > header {
+  grid-area: h;
+  height: 7.957559681697613vh;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+body > header > #sh1 {
+  margin: 21.5%;
+  display: flex;
+  align-items: center;
+}
+body > header > #sh2 {
+  margin: 15%;
+  display: flex;
+  align-items: center;
+}
+body > header > #sh1 > .headerTe {
+  color: #9ca2af;
+  margin: 0 0 0 10%;
+  display: flex;
+  font-size: 12px;
+  align-items: center;
+  height: 7.957559681697613vh;
+  text-decoration: none;
+  transition-duration: 0.1s;
+}
+body > header > #sh1 > .headerTe2 {
+  margin: 0 0 0 10%;
+  display: flex;
+  font-size: 12px;
+  align-items: center;
+  height: 7.957559681697613vh;
+  text-decoration: none;
+  transition-duration: 0.1s;
+  width: 3vw;
+}
+body > header > #sh1 > a > img {
+  display: flex;
+  align-items: center;
+  height: 3vh;
+}
+body > header > #sh1 > .headerTe:hover {
+  color: #212527;
+  border-bottom: 2.5px solid #555555;
+  height: calc(7.957559681697613vh - 2px);
+}
+body > header > #sh1 > .headerTe2:hover {
+  border-bottom: 2.5px solid #555555;
+  height: calc(7.957559681697613vh - 2px);
+}
+body > header > #sh2 > button {
+  height: 7.957559681697613vh;
+  font-size: 10px;
+  border: none;
+  background-color: white;
+  color: #212527;
+}
+body > main {
+  grid-area: m;
+  min-height: 100vh;
+  background-color: #f9f9f9;
+}
+body > main > #mapid {
+  height: 350px;
+}
+.logo {
+  display: block;
+  margin: 0% 0% 0% 7%;
+  display: block;
+  width: 6.5vw;
+  height: auto;
+}
+#campo {
+  margin-bottom: 1%;
+  width: 100%;
+  height: 30vh;
+}
+footer {
+  grid-area: f;
+  background-color: #212527;
+  width: 100%;
+  height: 27vh;
+  display: flex;
+  flex-direction: column;
+}
+.logofoot {
+  display: block;
+  margin: 0% 0% 0% 9%;
+  width: 5vw;
+  height: auto;
+}
+footer > #first {
+  display: flex;
+  align-items: center;
+  padding: 0.5% 0 0.5% 0;
+  background-color: #f0f2f4;
+}
+footer > #second {
+  padding: 0 6%;
+  margin-top: 1%;
+  display: flex;
+  align-items: top;
+}
+footer > #second > section {
+  padding: 0 4%;
+}
+footer > #second > section > a {
+  text-decoration: none;
+}
+footer > #second > section > a > h5:hover {
+  color: white;
+}
+footer > #second > section > h1 {
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 0.5% 0 0.5% 0;
+}
+footer > #second > section > a > h5 {
+  color: #9ca2af;
+  margin: 0.3em 0;
+}
+#borderinfo {
+  width: 0.075rem;
+  height: 32px;
+  margin: 0 5%;
+  background-color: #e0e0e0;
+}
+#suggest {
+  margin-left: 10%;
+}
+#userPlayer {
+  height: 3vh;
+  width: 20vw;
+  padding: 1%;
+  border: 2px solid #e0e0e0;
+}
+#userPlayer:hover {
+  box-shadow: 0 0 5pt 0.5pt #d3d3d3;
+}
+#userPlayer:focus {
+  box-shadow: 0 0 5pt 2pt #d3d3d3;
+  outline-width: 0px;
+}
+#myCheck {
+  font: 12px "Audiowide", sans-serif;
+  border: none;
+  outline: none;
+  height: 6vh;
+  background-color: rgba(250, 194, 83, 19);
+}
+.button {
+  font: 14px "Audiowide", sans-serif;
+  border: none;
+  background-color: #f9f9f9;
+  margin-right: 1%;
+  color: #9ca2af;
+}
+.button:focus {
+  outline: none;
+  border-bottom: 2px solid rgba(250, 194, 83, 19);
+  color: #212527;
+}
+#buttons {
+  outline: none;
+  margin: auto;
+  margin-top: 2%;
+  width: 40%;
+  padding: 10px;
+}
+#search {
+  display: flex;
+  align-items: center;
+  margin-top: 10%;
+  width: 60vw;
+}
+#friends {
+  display: flex;
+  flex-wrap: wrap;
+}
+#friends > section {
+  background-color: white;
+  width: 16vw;
+  padding: 1%;
+  margin: 0.5em 1.5em 0.2em 0;
+  border: 1px solid #e0e0e0;
+}
+#friends > #users {
+  display: flex;
+  align-items: center;
+}
+#friends > #users > button {
+  text-align: center;
+  margin-left: 70%;
+  padding: 1%;
+  border: 1px solid #e0e0e0;
+}
+#friends > #users > button:hover {
+  background-color: #9ca2af;
+}

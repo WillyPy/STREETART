@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="stylesheets/user.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Audiowide"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="javascripts/user.js"></script>
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <title>Softpadel</title>
+  </head>
+  <body>
+    <header>
+      <img class="logo" src="/images/Logotipo-Softpadel-1.png" />
+      <section>
+        <a href="userFeed.html">Feed</a>
+        <a href="#contacts">Contacts</a>
+        <a href="index.html">Home page</a>
+      </section>
+      <h1>Player</h1>
+    </header>
+
+    <main>
+      <h2>Username: <span id="username"></span></h2>
+      <h3 id="Name"></h3>
+      <input type="button" value="Follow" onclick="makeFriend()" />
+    </main>
+  </body>
+</html>

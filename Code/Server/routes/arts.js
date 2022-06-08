@@ -19,4 +19,5 @@ router.get("/:id/images", async function (req, res, next) {
   let result = await aModel.getArtImages(id);
   res.status(result.status).send(result.result);
 });
+
 module.exports = router;

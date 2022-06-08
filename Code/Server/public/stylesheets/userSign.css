@@ -1,0 +1,233 @@
+.header {
+  grid-area: header;
+  width: 50vw;
+  height: 10vh;
+}
+.main {
+  grid-area: main;
+  width: 50vw;
+  height: 80vh;
+}
+.footer {
+  grid-area: footer;
+  height: 10vh;
+  display: block;
+  margin-left: 6%;
+}
+.background {
+  grid-area: back;
+  background: url(/images/oficinas_de_arte_publica_2_2017_1_600_600.jpg)
+    no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  width: 50vw;
+  height: 100vh;
+  box-shadow: -2px 0px 8px #b3bf8a;
+}
+#formulario {
+  margin-top: 18%;
+  margin-left: 19%;
+}
+.subTexto {
+  color: #777777;
+  margin-top: -2%;
+}
+.text {
+  font-size: 1.9em;
+  color: #545454;
+}
+#index {
+  display: block;
+  margin-top: 35%;
+  margin-left: 35%;
+  margin-right: 35%;
+  margin-bottom: 0%;
+  background-color: rgba(255, 255, 255, 1);
+  width: 30%;
+  height: 30%;
+  border-radius: 25%;
+}
+#index > a > img {
+  margin-top: 35%;
+  margin-left: 14%;
+  width: 11.067708333333334vw;
+  height: 7.957559681697613vh;
+}
+body {
+  font: 14px "Audiowide", sans-serif;
+  margin: 0%;
+  padding: 0%;
+  background-color: #ffffff;
+}
+body > main {
+  display: grid;
+  grid-template-areas:
+    "header back"
+    "main back"
+    "footer back";
+}
+#logo {
+  height: 3.9787798408488064vh;
+  width: 16.504557291666668vw;
+  margin-top: 6%;
+  margin-left: 5%;
+}
+.inputText {
+  border: 1px solid #e0e0e0;
+  width: 28vw;
+  height: 9vh;
+  padding: 0% 3%;
+}
+#username {
+  margin-bottom: 2%;
+}
+#password {
+  margin-bottom: 1%;
+}
+#username:hover {
+  border-left: 5px solid rgba(250, 194, 83, 19);
+  width: calc(28vw - 4px);
+}
+#username:focus {
+  outline: none;
+  border: 1px solid #e0e0e0;
+  border-left: 5px solid rgba(250, 194, 83, 19);
+  width: calc(28vw - 1px);
+}
+#password:hover {
+  border-left: 5px solid #e0e0e0;
+  width: calc(28vw - 4px);
+}
+#password:focus {
+  outline: none;
+  border-left: 5px solid #e0e0e0;
+  width: calc(28vw - 4px);
+}
+.login {
+  background-color: #333333;
+  color: white;
+  width: 9vw;
+  height: 7vh;
+  border-radius: 3% / 6%;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  transition-duration: 0.4;
+  margin-right: 2%;
+  margin-top: 1%;
+}
+.login:hover {
+  background-color: white;
+  color: #333333;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+#sign {
+  background-color: white;
+  color: #333333;
+  width: 9vw;
+  height: 7vh;
+  border-radius: 3% / 6%;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  transition-duration: 0.4;
+  margin-top: 1%;
+}
+#sign:hover {
+  background-color: #333333;
+  color: white;
+}
+#registo {
+  display: flex;
+  align-items: center;
+  padding-top: 23%;
+  padding-left: 40%;
+}
+#registoText {
+  background-color: white;
+  width: 15.5vh;
+  height: 1.9893899204244032vh;
+  text-align: center;
+  padding: 1em;
+  transition-duration: 0.4;
+  border-radius: 15% 15% 15% 15% / 50% 50% 50% 50%;
+  text-decoration: none;
+  color: black;
+}
+#registoText:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+#texth4 {
+  color: white;
+  font-size: 1.1em;
+  padding-right: 2.5em;
+}
+.info {
+  text-decoration: none;
+  color: black;
+  height: 2%;
+}
+#borderinfo {
+  width: 0.075rem;
+  height: 15px;
+  margin: 0 2%;
+  background-color: #e0e0e0;
+}
+#infoSection {
+  display: flex;
+  align-items: center;
+}
+
+/*Sign Up*/
+.background2 {
+  grid-area: back;
+  background: url(/images/Arte-urbana_grandioso-mural-criado-pela-artista-Natalia-Rak.webp)
+    no-repeat;
+  background-size: cover;
+  background-position: center 30%;
+  width: 50vw;
+  height: 100vh;
+  box-shadow: -2px 0px 8px #b3bf8a;
+}
+#formulario2 {
+  margin-top: 6%;
+  margin-left: 29%;
+}
+.text2 {
+  font-size: 1.1em;
+  color: #545454;
+  border: 1px solid #e0e0e0;
+  width: 20vw;
+  height: 5vh;
+  padding: 0% 3%;
+  margin-bottom: 1%;
+}
+.text2:hover {
+  border-left: 5px solid rgba(250, 194, 83, 19);
+  width: calc(20vw - 1px);
+}
+.text2:focus {
+  outline: none;
+  border: 1px solid #e0e0e0;
+  border-left: 5px solid rgba(250, 194, 83, 19);
+  width: calc(20vw - 1px);
+}
+#signUp {
+  width: 8vw;
+  height: 6vh;
+  margin: 2% 15%;
+}
+#already {
+  text-decoration: none;
+  color: black;
+}
+.cities {
+  outline: none;
+  color: #545454;
+  border-color: 1px solid #e0e0e0;
+}
+.radio {
+  margin-top: 2%;
+  margin-left: 1%;
+  margin-bottom: 4%;
+}

@@ -12,9 +12,10 @@ async function login() {
       contentType: "application/json",
     });
     console.log(user.artist_id);
+    sessionStorage.setItem("userId", user.user_id);
     sessionStorage.setItem("artistId", user.artist_id);
     window.alert("login sucesfully");
-    if (user.artist_id) window.location = "artist.html";
+    if (user.user_id) window.location = "userfeed.html";
   } catch (err) {
     document.getElementById("msg").innerText = err.responseJSON.msg;
   }
