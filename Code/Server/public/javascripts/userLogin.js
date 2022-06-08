@@ -15,7 +15,7 @@ async function login() {
     sessionStorage.setItem("userId", user.user_id);
     sessionStorage.setItem("artistId", user.artist_id);
     window.alert("login sucesfully");
-    if (user.user_id) window.location = "userfeed.html";
+    if (user.user_id) window.location = "userFeed.html";
   } catch (err) {
     document.getElementById("msg").innerText = err.responseJSON.msg;
   }
