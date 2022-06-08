@@ -16,18 +16,3 @@ async function loadArts() {
     console.log(error);
   }
 }
-function createArtsHtml(data) {
-  let html = ``;
-  for (let dat of data) {
-    html += `<section class="art" onclick="toArt(${dat.art_id})">
-            <p>Ano:${dat.art_year}</p>
-            <p>Address:${dat.art_address}</p>
-            <p>state:${dat.art_state}</p>
-            </section>`;
-  }
-  document.getElementById("arts").innerHTML = html;
-}
-function toArt(aId) {
-  sessionStorage.setItem("artId", aId);
-  window.location = "art.html";
-}
